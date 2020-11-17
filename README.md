@@ -30,9 +30,11 @@ coming soon
 ## 📦 Resources
 ### 1. Plan
   - Threat Model
+    1. [Threat Modeling by OWASP](https://owasp.org/www-community/Threat_Modeling)
+    2. [Application Threat Modeling by OWASP](https://owasp.org/www-community/Application_Threat_Modeling)
 ### 2. Develop
   - Secure Coding
-    1. [Secure coding guide from Apple](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html)
+    1. [Secure coding guide by Apple](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html)
     2. [Secure Coding Guidelines for Java SE](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
     3. [Go-SCP / Go programming language secure coding practices guide](https://github.com/OWASP/Go-SCP)
 ### 3. Build  
@@ -46,8 +48,8 @@ coming soon
   - Penetration testing
 ### 5. Release
 ### 6. Deploy
-  - Hardening
-  - Security Config
+  - Security Hardening & Config
+    1. [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
   - Security Scanning
 ### 7. Operate
   - Security Patch
