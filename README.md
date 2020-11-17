@@ -46,7 +46,9 @@ Larry Maccherone
 ![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY)
 
 ## Tools
-coming soon
+    - Monitoring
+    - ABCD
+    - etc
 
 ## Wrap Up
 If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
