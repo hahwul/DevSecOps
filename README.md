@@ -29,6 +29,8 @@ coming soon
 
 ## 📦 Resources
 ### 1. Plan
+  - Developement Lifecycle
+    1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
   - Threat Model
     1. [Threat Modeling by OWASP](https://owasp.org/www-community/Threat_Modeling)
     2. [Application Threat Modeling by OWASP](https://owasp.org/www-community/Application_Threat_Modeling)
