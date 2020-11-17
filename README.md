@@ -20,8 +20,8 @@
   * [6. Deploy](#6-deploy)
   * [7. Operate](#7-operate)
   * [8. Monitor](#8-monitor)
-- [Other roadmaps](#other-roadmaps)
 - [Tools](#tools)
+- [Other roadmaps](#other-roadmaps)
 - [Wrap Up](#wrap-up)
 
 ## 💭 Roadmap
@@ -53,15 +53,15 @@ coming soon
   - Security Monitor
   - Security Analysis
 
-## 🚀 Other roadmaps
-| ![](https://media-exp1.licdn.com/dms/image/C4E12AQFQbzupC5vn1w/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=wTgChj5fKaR8cZE_L2S8tqJRtHWgTRlkBrXff23t7iQ) | ![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-|   U.S. Department of Defense           | Larry Maccherone                                       |
-
 ## 🔩 Tools
     - Monitoring
     - ABCD
     - etc
+
+## 🚀 Other roadmaps
+| ![](https://media-exp1.licdn.com/dms/image/C4E12AQFQbzupC5vn1w/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=wTgChj5fKaR8cZE_L2S8tqJRtHWgTRlkBrXff23t7iQ) | ![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+|   U.S. Department of Defense           | Larry Maccherone                                       |
 
 ## 🙏🏼 Wrap Up
 If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
