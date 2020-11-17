@@ -9,7 +9,7 @@
 
 [한글](./i18n/ko-KR/README.md)
 
-## Table of Contents
+## 📜 Table of Contents
 - [Roadmap](#roadmap)
 - [Resources](#resources)
   * [1. Plan](#1-plan)
@@ -24,10 +24,10 @@
 - [Tools](#tools)
 - [Wrap Up](#wrap-up)
 
-## Roadmap
+## 💭 Roadmap
 coming soon
 
-## Resources
+## 📦 Resources
 ### 1. Plan
   - Threat Model
 ### 2. Develop
@@ -53,17 +53,17 @@ coming soon
   - Security Monitor
   - Security Analysis
 
-## Other roadmaps
+## 🚀 Other roadmaps
 | ![](https://media-exp1.licdn.com/dms/image/C4E12AQFQbzupC5vn1w/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=wTgChj5fKaR8cZE_L2S8tqJRtHWgTRlkBrXff23t7iQ) | ![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |   U.S. Department of Defense           | Larry Maccherone                                       |
 
-## Tools
+## 🔩 Tools
     - Monitoring
     - ABCD
     - etc
 
-## Wrap Up
+## 🙏🏼 Wrap Up
 If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
 
 Idea from : [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
