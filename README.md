@@ -32,6 +32,9 @@ coming soon
   - Threat Model
 ### 2. Develop
   - Secure Coding
+    1. [Secure coding guide from Apple](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html)
+    2. [Secure Coding Guidelines for Java SE](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
+    3. [Go-SCP / Go programming language secure coding practices guide](https://github.com/OWASP/Go-SCP)
 ### 3. Build  
   - SAST(Static Application Security Testing)
     1. [Scan Source Code using Static Application Security Testing (SAST) with SonarQube, Part 1](https://medium.com/nycdev/scan-your-source-code-for-vulnerabilities-using-static-application-security-testing-sast-with-5f8ee1fdf9aa)
