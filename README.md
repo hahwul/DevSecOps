@@ -17,27 +17,36 @@
 coming soon
 
 ## Resources
-1. SAST
-    1. Open Source
-        - ABCD
-    2. Commercial
-        - ABCD
-    3. Cloud Service
-        - [AWS] Service A
-        - [Azure] Service B
-        - [GCP] Service C
+1. Plan
+  - Threat Model
+2. Develop
+  - Secure Coding
+3. Build
+  - SAST(Static Application Security Testing)
+4. Test
+  - DAST(Dynamic Application Security Testing)
+  - Penetration testing
+5. Release
+6. Deploy
+  - Hardening
+  - Security Config
+  - Security Scanning
+7. Operate
+  - Security Patch
+8. Monitor
+  - Security Audit
+  - Security Monitor
+  - Security Analysis
 
-2. DAST
-    1. ABCD
-    
-3. Docker
-    - ABCD
-    
-4. K8s
-    - ABCD
+## Images
+U.S. Department of Defense
+![](https://media-exp1.licdn.com/dms/image/C4E12AQFQbzupC5vn1w/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=wTgChj5fKaR8cZE_L2S8tqJRtHWgTRlkBrXff23t7iQ)
+
+Larry Maccherone
+![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY)
 
 ## Tools
-asdf
+coming soon
 
 ## Wrap Up
 If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
