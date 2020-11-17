@@ -7,6 +7,12 @@
 
 > Roadmap for everyone who wants DevSecOps.
 
+## Table of Contents
+* [Roadmap](#roadmap)
+* [Resources](#resources)
+* [Tools](#tools)
+* [Wrap Up](#wrap-up)
+
 ## Roadmap
 coming soon
 
