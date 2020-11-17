@@ -61,9 +61,7 @@ coming soon
   - Security Analysis
 
 ## 🔩 Tools
-    - Monitoring
-    - ABCD
-    - etc
+coming soon (like [this](https://github.com/hahwul/WebHackersWeapons#weapons)?)
 
 ## 🚀 Other roadmaps
 | ![](https://media-exp1.licdn.com/dms/image/C4E12AQFQbzupC5vn1w/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=wTgChj5fKaR8cZE_L2S8tqJRtHWgTRlkBrXff23t7iQ) | ![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY) |
