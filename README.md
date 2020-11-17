@@ -8,32 +8,41 @@
 > Roadmap for everyone who wants DevSecOps.
 
 ## Table of Contents
-* [Roadmap](#roadmap)
-* [Resources](#resources)
-* [Tools](#tools)
-* [Wrap Up](#wrap-up)
+- [Roadmap](#roadmap)
+- [Resources](#resources)
+  * [1. Plan](#1-plan)
+  * [2. Develop](#2-develop)
+  * [3. Build](#3-build)
+  * [4. Test](#4-test)
+  * [5. Release](#5-release)
+  * [6. Deploy](#6-deploy)
+  * [7. Operate](#7-operate)
+  * [8. Monitor](#8-monitor)
+- [Images](#images)
+- [Tools](#tools)
+- [Wrap Up](#wrap-up)
 
 ## Roadmap
 coming soon
 
 ## Resources
-1. Plan
+### 1. Plan
   - Threat Model
-2. Develop
+### 2. Develop
   - Secure Coding
-3. Build
+### 3. Build  
   - SAST(Static Application Security Testing)
-4. Test
+### 4. Test
   - DAST(Dynamic Application Security Testing)
   - Penetration testing
-5. Release
-6. Deploy
+### 5. Release
+### 6. Deploy
   - Hardening
   - Security Config
   - Security Scanning
-7. Operate
+### 7. Operate
   - Security Patch
-8. Monitor
+### 8. Monitor
   - Security Audit
   - Security Monitor
   - Security Analysis
