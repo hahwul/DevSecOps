@@ -23,6 +23,7 @@
 - [Tools](#tools)
 - [Other roadmaps](#other-roadmaps)
 - [Wrap Up](#wrap-up)
+- [Contribute](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
 
 ## 💭 Roadmap
 coming soon
