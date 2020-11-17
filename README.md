@@ -7,6 +7,8 @@
 
 > Roadmap for everyone who wants DevSecOps.
 
+[한글](./i18n/ko-KR/README.md)
+
 ## Table of Contents
 - [Roadmap](#roadmap)
 - [Resources](#resources)
