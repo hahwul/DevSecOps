@@ -7,7 +7,14 @@ coming soon
 
 ## Resources
 1. SAST
-    - ABCD
+    1. Open Source
+        - ABCD
+    2. Commercial
+        - ABCD
+    3. Cloud Service
+        - [AWS] Service A
+        - [Azure] Service B
+        - [GCP] Service C
 
 2. DAST
     1. ABCD
