@@ -18,7 +18,7 @@
   * [6. Deploy](#6-deploy)
   * [7. Operate](#7-operate)
   * [8. Monitor](#8-monitor)
-- [Images](#images)
+- [Other roadmaps](#other-roadmaps)
 - [Tools](#tools)
 - [Wrap Up](#wrap-up)
 
