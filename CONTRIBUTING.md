@@ -41,6 +41,6 @@ i18n/ko-KR/DevSecOps.xml
 i18n/ko-KR/DevSecOps.png
 ```
 3. Translate contents
-- The roadmap is built using Draw.io. Project file can be found at DevSecOps.xml file. To modify it, open draw.io
-- When the translation is complete, save the xml and create an image (png) file.
+- The roadmap is built using [Draw.io](https://draw.io). Project file can be found at `DevSecOps.xml` file. To modify it, open [draw.io](https://draw.io)
+- When the translation is complete, save the xml and create an image (`DevSecOps.png`) file.
 4. Make and Send PR(Pull Request)
