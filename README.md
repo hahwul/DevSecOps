@@ -18,7 +18,7 @@
   * [4. Test](#4-test)
   * [5. Deploy](#5-deploy)
   * [6. Operate and Monitor](#6-operate-and-monitor)
-- [Tools](#-tools)
+- [Tools](https://github.com/hahwul/DevSecOps/blob/main/tools/README.md)
 - [Other roadmaps](#-other-roadmaps)
 - [Wrap Up](#-wrap-up)
 - [Contribute](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
@@ -58,9 +58,6 @@ coming soon
   - Security Audit
   - Security Monitor
   - Security Analysis
-
-## 🔩 Tools
-coming soon (like [this](https://github.com/hahwul/WebHackersWeapons#weapons)?)
 
 ## 🚀 Other roadmaps
 | ![](https://media-exp1.licdn.com/dms/image/C4E12AQFQbzupC5vn1w/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=wTgChj5fKaR8cZE_L2S8tqJRtHWgTRlkBrXff23t7iQ) | ![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY) |
