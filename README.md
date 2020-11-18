@@ -11,6 +11,7 @@
 
 ## 📜 Table of Contents
 - [Roadmap](#roadmap)
+- [Tools](#tools)
 - [Resources](#resources)
   * [1. Design](#1-design)
   * [2. Develop](#2-develop)
@@ -18,13 +19,17 @@
   * [4. Test](#4-test)
   * [5. Deploy](#5-deploy)
   * [6. Operate and Monitor](#6-operate-and-monitor)
-- [Tools](https://github.com/hahwul/DevSecOps/blob/main/tools/README.md)
 - [Other roadmaps](#-other-roadmaps)
 - [Wrap Up](#-wrap-up)
 - [Contribute](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
 
 ## 💭 Roadmap
 coming soon
+
+## :nut_and_bolt: Tools 
+Spending a lot of time on applying DevSecOps is searching, comparing, and making decisions about tools. These tool lists are a good way to help you reduce unnecessary time and apply them quickly :sunglasses:
+
+Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 
 ## 📦 Resources
 ### 1. Design
