@@ -10,8 +10,8 @@
 [한글](./i18n/ko-KR/README.md)
 
 ## 📜 Table of Contents
-- [Roadmap](#roadmap)
-- [Tools](#tools)
+- [Roadmap](#-roadmap)
+- [Tools](#-tools)
 - [Resources](#resources)
   * [1. Design](#1-design)
   * [2. Develop](#2-develop)
