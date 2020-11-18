@@ -26,7 +26,7 @@
 ## 💭 Roadmap
 coming soon
 
-## :nut_and_bolt: Tools 
+## 🔩 Tools 
 Spending a lot of time on applying DevSecOps is searching, comparing, and making decisions about tools. These tool lists are a good way to help you reduce unnecessary time and apply them quickly :sunglasses:
 
 Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
