@@ -12,14 +12,12 @@
 ## 📜 Table of Contents
 - [Roadmap](#roadmap)
 - [Resources](#resources)
-  * [1. Plan](#1-plan)
+  * [1. Design](#1-design)
   * [2. Develop](#2-develop)
   * [3. Build](#3-build)
   * [4. Test](#4-test)
-  * [5. Release](#5-release)
-  * [6. Deploy](#6-deploy)
-  * [7. Operate](#7-operate)
-  * [8. Monitor](#8-monitor)
+  * [5. Deploy](#5-deploy)
+  * [6. Operate and Monitor](#6-operate-and-monitor)
 - [Tools](#tools)
 - [Other roadmaps](#other-roadmaps)
 - [Wrap Up](#wrap-up)
@@ -29,7 +27,7 @@
 coming soon
 
 ## 📦 Resources
-### 1. Plan
+### 1. Design
   - Developement Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
   - Threat Model
@@ -51,14 +49,12 @@ coming soon
     1. [Dynamic Application Security Testing with ZAP and GitHub Actions](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/) 
     2. [Dynamic Application Security Testing (DAST) in Gitlab](https://docs.gitlab.com/ee/user/application_security/dast/)
   - Penetration testing
-### 5. Release
-### 6. Deploy
+### 5. Deploy
   - Security Hardening & Config
     1. [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
   - Security Scanning
-### 7. Operate
+### 6. Operate and Monitor
   - Security Patch
-### 8. Monitor
   - Security Audit
   - Security Monitor
   - Security Analysis
