@@ -18,9 +18,9 @@
   * [4. Test](#4-test)
   * [5. Deploy](#5-deploy)
   * [6. Operate and Monitor](#6-operate-and-monitor)
-- [Tools](#tools)
-- [Other roadmaps](#other-roadmaps)
-- [Wrap Up](#wrap-up)
+- [Tools](#-tools)
+- [Other roadmaps](#-other-roadmaps)
+- [Wrap Up](#-wrap-up)
 - [Contribute](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
 
 ## 💭 Roadmap
