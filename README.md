@@ -33,7 +33,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 
 ## 📦 Resources
 ### 1. Design
-  - Developement Lifecycle
+  - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
   - Threat Model
     1. [Threat Modeling by OWASP](https://owasp.org/www-community/Threat_Modeling)
