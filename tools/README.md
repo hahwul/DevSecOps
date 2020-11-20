@@ -9,6 +9,7 @@ Spending a lot of time on applying DevSecOps is searching, comparing, and making
 ## List of Tool
 | Type | Name | Description | Popularity | Language |
 | ---------- | :---------- | :----------: | :----------: | :----------: | 
+| Build/SAST  | [SonarQube](https://www.sonarqube.org/) |  SonarQube is an open-source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities on 20+ programming languages.|![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)
 | Build/SAST | [codeql](https://github.com/github/codeql) | CodeQL | ![](https://img.shields.io/github/stars/github/codeql) | ![](https://img.shields.io/github/languages/top/github/codeql) |
 | Build/SAST | [semgrep](https://github.com/returntocorp/semgrep) | Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. | ![](https://img.shields.io/github/stars/returntocorp/semgrep) | ![](https://img.shields.io/github/languages/top/returntocorp/semgrep) |
 | Test/DAST | [zaproxy](https://github.com/zaproxy/zaproxy) | The OWASP ZAP core project | ![](https://img.shields.io/github/stars/zaproxy/zaproxy) | ![](https://img.shields.io/github/languages/top/zaproxy/zaproxy) |
