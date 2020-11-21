@@ -1,17 +1,47 @@
 {
  "SonarQube": {
-  "Type": "Build",
   "Data": "| Build/SAST  | [SonarQube](https://www.sonarqube.org/) |  SonarQube is an open-source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities on 20+ programming languages.|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
-  "Method": "SAST"
+  "Method": "SAST",
+  "Type": "Build"
+ },
+ "action-baseline": {
+  "Data": "| Test/DAST | [action-baseline](https://github.com/zaproxy/action-baseline) | A GitHub Action for running the OWASP ZAP Baseline scan | ![](https://img.shields.io/github/stars/zaproxy/action-baseline) | ![](https://img.shields.io/github/languages/top/zaproxy/action-baseline) |",
+  "Method": "DAST",
+  "Type": "Test"
+ },
+ "action-dalfox": {
+  "Type": "Test",
+  "Data": "| Test/DAST | [action-dalfox](https://github.com/hahwul/action-dalfox) | XSS scanning with Dalfox on Github-action | ![](https://img.shields.io/github/stars/hahwul/action-dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/action-dalfox) |",
+  "Method": "DAST"
+ },
+ "action-full-scan": {
+  "Data": "| Test/DAST | [action-full-scan](https://github.com/zaproxy/action-full-scan) | A GitHub Action for running the OWASP ZAP Full scan | ![](https://img.shields.io/github/stars/zaproxy/action-full-scan) | ![](https://img.shields.io/github/languages/top/zaproxy/action-full-scan) |",
+  "Method": "DAST",
+  "Type": "Test"
  },
  "codeql": {
   "Data": "| Build/SAST | [codeql](https://github.com/github/codeql) | CodeQL | ![](https://img.shields.io/github/stars/github/codeql) | ![](https://img.shields.io/github/languages/top/github/codeql) |",
   "Method": "SAST",
   "Type": "Build"
  },
+ "secrets-sync-action": {
+  "Data": "| Build/SECRET-MANAGE | [secrets-sync-action](https://github.com/google/secrets-sync-action) | A Github Action that can sync secrets from one repository to many others. | ![](https://img.shields.io/github/stars/google/secrets-sync-action) | ![](https://img.shields.io/github/languages/top/google/secrets-sync-action) |",
+  "Method": "SECRET-MANAGE",
+  "Type": "Build"
+ },
  "semgrep": {
   "Data": "| Build/SAST | [semgrep](https://github.com/returntocorp/semgrep) | Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. | ![](https://img.shields.io/github/stars/returntocorp/semgrep) | ![](https://img.shields.io/github/languages/top/returntocorp/semgrep) |",
   "Method": "SAST",
+  "Type": "Build"
+ },
+ "sonarcloud-github-action": {
+  "Data": "| Build/SAST | [sonarcloud-github-action](https://github.com/SonarSource/sonarcloud-github-action) | Integrate SonarCloud code analysis to GitHub Actions | ![](https://img.shields.io/github/stars/SonarSource/sonarcloud-github-action) | ![](https://img.shields.io/github/languages/top/SonarSource/sonarcloud-github-action) |",
+  "Method": "SAST",
+  "Type": "Build"
+ },
+ "vault-action": {
+  "Data": "| Build/SECRET-MANAGE | [vault-action](https://github.com/hashicorp/vault-action) | A GitHub Action that simplifies using HashiCorp Vault ™ secrets as build variables. | ![](https://img.shields.io/github/stars/hashicorp/vault-action) | ![](https://img.shields.io/github/languages/top/hashicorp/vault-action) |",
+  "Method": "SECRET-MANAGE",
   "Type": "Build"
  },
  "zaproxy": {
