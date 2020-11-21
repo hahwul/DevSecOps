@@ -43,6 +43,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
     1. [Secure coding guide by Apple](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html)
     2. [Secure Coding Guidelines for Java SE](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
     3. [Go-SCP / Go programming language secure coding practices guide](https://github.com/OWASP/Go-SCP)
+    4. [Android App security best practices by Google](https://developer.android.com/topic/security/best-practices)
 ### 3. Build  
   - SAST(Static Application Security Testing)
     1. [Scan Source Code using Static Application Security Testing (SAST) with SonarQube, Part 1](https://medium.com/nycdev/scan-your-source-code-for-vulnerabilities-using-static-application-security-testing-sast-with-5f8ee1fdf9aa)
