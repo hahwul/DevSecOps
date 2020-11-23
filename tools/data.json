@@ -24,6 +24,16 @@
   "Method": "SAST",
   "Type": "Build"
  },
+ "metasploit-framework": {
+  "Type": "Test",
+  "Data": "| Test/PENTEST | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | ![](https://img.shields.io/github/stars/rapid7/metasploit-framework) | ![](https://img.shields.io/github/languages/top/rapid7/metasploit-framework) |",
+  "Method": "PENTEST"
+ },
+ "ptf": {
+  "Data": "| Test/PENTEST | [ptf](https://github.com/trustedsec/ptf) | The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools. | ![](https://img.shields.io/github/stars/trustedsec/ptf) | ![](https://img.shields.io/github/languages/top/trustedsec/ptf) |",
+  "Method": "PENTEST",
+  "Type": "Test"
+ },
  "secrets-sync-action": {
   "Data": "| Build/SECRET-MANAGE | [secrets-sync-action](https://github.com/google/secrets-sync-action) | A Github Action that can sync secrets from one repository to many others. | ![](https://img.shields.io/github/stars/google/secrets-sync-action) | ![](https://img.shields.io/github/languages/top/google/secrets-sync-action) |",
   "Method": "SECRET-MANAGE",
@@ -40,9 +50,9 @@
   "Type": "Build"
  },
  "threagile": {
-  "Type": "Design",
   "Data": "| Design/THREAT | [threagile](https://github.com/Threagile/threagile) | Agile Threat Modeling Toolkit | ![](https://img.shields.io/github/stars/Threagile/threagile) | ![](https://img.shields.io/github/languages/top/Threagile/threagile) |",
-  "Method": "THREAT"
+  "Method": "THREAT",
+  "Type": "Design"
  },
  "vault-action": {
   "Data": "| Build/SECRET-MANAGE | [vault-action](https://github.com/hashicorp/vault-action) | A GitHub Action that simplifies using HashiCorp Vault ™ secrets as build variables. | ![](https://img.shields.io/github/stars/hashicorp/vault-action) | ![](https://img.shields.io/github/languages/top/hashicorp/vault-action) |",
