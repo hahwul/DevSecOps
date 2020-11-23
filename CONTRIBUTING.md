@@ -1,4 +1,19 @@
-## Add contents
+## Add contents in diagram
+1. fork this repo
+2. open DevSecOps.xml using [draw.io](draw.io)
+```
+1) File > Open(Import) from > Devices
+2) Open DevSecOps.xml
+```
+3. Edit contents
+4. Save diagram(xml file) and Export image
+```
+1) File > Export as > png
+```
+5. Commit/Push the `DevSecOps.xml` and `DevSecOps.png` files to the your forked repository.
+6. Make and Send PR(Pull Request)
+
+## Add contents in README
 Please add content and send us PR!
 1. fork this repo
 2. Edit contents from forked repo
