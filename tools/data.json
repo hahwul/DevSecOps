@@ -40,9 +40,9 @@
   "Type": "Build"
  },
  "threagile": {
-  "Type": "Develope",
-  "Data": "| Develope/TREAT | [threagile](https://github.com/Threagile/threagile) | Agile Threat Modeling Toolkit | ![](https://img.shields.io/github/stars/Threagile/threagile) | ![](https://img.shields.io/github/languages/top/Threagile/threagile) |",
-  "Method": "TREAT"
+  "Type": "Design",
+  "Data": "| Design/THREAT | [threagile](https://github.com/Threagile/threagile) | Agile Threat Modeling Toolkit | ![](https://img.shields.io/github/stars/Threagile/threagile) | ![](https://img.shields.io/github/languages/top/Threagile/threagile) |",
+  "Method": "THREAT"
  },
  "vault-action": {
   "Data": "| Build/SECRET-MANAGE | [vault-action](https://github.com/hashicorp/vault-action) | A GitHub Action that simplifies using HashiCorp Vault ™ secrets as build variables. | ![](https://img.shields.io/github/stars/hashicorp/vault-action) | ![](https://img.shields.io/github/languages/top/hashicorp/vault-action) |",
