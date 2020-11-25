@@ -25,8 +25,13 @@
   "Type": "Build"
  },
  "metasploit-framework": {
-  "Type": "Test",
   "Data": "| Test/PENTEST | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | ![](https://img.shields.io/github/stars/rapid7/metasploit-framework) | ![](https://img.shields.io/github/languages/top/rapid7/metasploit-framework) |",
+  "Method": "PENTEST",
+  "Type": "Test"
+ },
+ "monkey": {
+  "Type": "Test",
+  "Data": "| Test/PENTEST | [monkey](https://github.com/guardicore/monkey) | Infection Monkey - An automated pentest tool | ![](https://img.shields.io/github/stars/guardicore/monkey) | ![](https://img.shields.io/github/languages/top/guardicore/monkey) |",
   "Method": "PENTEST"
  },
  "ptf": {
