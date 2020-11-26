@@ -29,6 +29,11 @@
   "Method": "SAST",
   "Type": "Build"
  },
+ "kamus": {
+  "Type": "Build",
+  "Data": "| Build/SECRET-MANAGE | [kamus](https://github.com/Soluto/kamus) | An open source, git-ops, zero-trust secret encryption and decryption solution for Kubernetes applications | ![](https://img.shields.io/github/stars/Soluto/kamus) | ![](https://img.shields.io/github/languages/top/Soluto/kamus) |",
+  "Method": "SECRET-MANAGE"
+ },
  "metasploit-framework": {
   "Data": "| Test/PENTEST | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | ![](https://img.shields.io/github/stars/rapid7/metasploit-framework) | ![](https://img.shields.io/github/languages/top/rapid7/metasploit-framework) |",
   "Method": "PENTEST",
@@ -50,9 +55,9 @@
   "Type": "Design"
  },
  "seasponge": {
-  "Type": "Design",
   "Data": "| Design/THREAT | [seasponge](https://github.com/mozilla/seasponge) | SeaSponge is an accessible threat modelling tool from Mozilla | ![](https://img.shields.io/github/stars/mozilla/seasponge) | ![](https://img.shields.io/github/languages/top/mozilla/seasponge) |",
-  "Method": "THREAT"
+  "Method": "THREAT",
+  "Type": "Design"
  },
  "secrets-sync-action": {
   "Data": "| Build/SECRET-MANAGE | [secrets-sync-action](https://github.com/google/secrets-sync-action) | A Github Action that can sync secrets from one repository to many others. | ![](https://img.shields.io/github/stars/google/secrets-sync-action) | ![](https://img.shields.io/github/languages/top/google/secrets-sync-action) |",
