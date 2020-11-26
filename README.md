@@ -75,6 +75,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 | ![](https://media-exp1.licdn.com/dms/image/C4E12AQFQbzupC5vn1w/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=wTgChj5fKaR8cZE_L2S8tqJRtHWgTRlkBrXff23t7iQ) | ![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |   U.S. Department of Defense           | Larry Maccherone                                       |
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e5fd334a431848dcb6ecdb3784fb5dfb)](https://app.codacy.com/gh/hahwul/DevSecOps?utm_source=github.com&utm_medium=referral&utm_content=hahwul/DevSecOps&utm_campaign=Badge_Grade)
 | [![](https://i.imgur.com/pQXVOzS.png)](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf) |
 | The DevSecOps Security Checklist |
 
