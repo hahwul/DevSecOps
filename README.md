@@ -21,6 +21,7 @@
   * [6. Operate and Monitor](#6-operate-and-monitor)
 - [Other roadmaps](#-other-roadmaps)
 - [Wrap Up](#-wrap-up)
+- [Contributors](#contributors)
 - [Contribute](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
 
 ## 💭 Roadmap
@@ -79,3 +80,6 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
 
 Idea from : [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
+
+## Contributors
+![](/CONTRIBUTORS.svg)
