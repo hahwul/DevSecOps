@@ -6,6 +6,11 @@
   <img src="https://img.shields.io/github/last-commit/hahwul/DevSecOps">
   <img src="https://github.com/hahwul/DevSecOps/workflows/CodeQL/badge.svg">
   <img src="https://api.codacy.com/project/badge/Grade/e5fd334a431848dcb6ecdb3784fb5dfb">
+  <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat&logo=twitter"></a>
+  <a href="https://github.com/hahwul"><img src="https://img.shields.io/github/followers/hahwul?style=flat&logo=github"></a>
+  <a href="https://github.com/hahwul"><img src="https://img.shields.io/github/stars/hahwul?style=flat&logo=github"></a>
+  <a href="https://paypal.me/hahwul"><img src="https://img.shields.io/badge/support-$-ff69b4.svg?style=flat&logo=paypal"></a>
+  <a href="https://www.buymeacoffee.com/hahwul"><img src="https://img.shields.io/badge/support-@-ff69b4.svg?style=flat&color=orange&logo=buy%20me%20a%20coffee"></a>
 </h1>
 
 > Roadmap for everyone who wants DevSecOps.
