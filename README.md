@@ -69,6 +69,8 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - Security Scanning
 ### 6. Operate and Monitor
   - RASP(Run-time Application Security Protection)
+    1. [Runtime Application Self-Protection by rapid7](https://www.rapid7.com/fundamentals/runtime-application-self-protection/)
+    2. [Jumpstarting your devsecops - Pipeline with IAST and RASP](https://2018.appsec.eu/presos/DevOps_Jumpstarting-Your-DevSecOps_Jeff-Williams_AppSecEU2018.pdf)
   - Security Patch
   - Security Audit
   - Security Monitor
