@@ -6,6 +6,8 @@
   <img src="https://img.shields.io/github/last-commit/hahwul/DevSecOps">
   <img src="https://github.com/hahwul/DevSecOps/workflows/CodeQL/badge.svg">
   <img src="https://api.codacy.com/project/badge/Grade/e5fd334a431848dcb6ecdb3784fb5dfb">
+  <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat&logo=twitter"></a>
+  <a href="https://github.com/hahwul"><img src="https://img.shields.io/github/stars/hahwul?style=flat&logo=github"></a>
 </h1>
 
 > Roadmap for everyone who wants DevSecOps.
@@ -60,6 +62,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - DAST(Dynamic Application Security Testing)
     1. [Dynamic Application Security Testing with ZAP and GitHub Actions](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/) 
     2. [Dynamic Application Security Testing (DAST) in Gitlab](https://docs.gitlab.com/ee/user/application_security/dast/)
+    3. [DAST using pdiscoveryio Nuclei (github action)](https://github.com/secopslab/nuclei-action)
   - Penetration testing
 ### 5. Deploy
   - Security Hardening & Config
@@ -67,6 +70,8 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - Security Scanning
 ### 6. Operate and Monitor
   - RASP(Run-time Application Security Protection)
+    1. [Runtime Application Self-Protection by rapid7](https://www.rapid7.com/fundamentals/runtime-application-self-protection/)
+    2. [Jumpstarting your devsecops - Pipeline with IAST and RASP](https://2018.appsec.eu/presos/DevOps_Jumpstarting-Your-DevSecOps_Jeff-Williams_AppSecEU2018.pdf)
   - Security Patch
   - Security Audit
   - Security Monitor
