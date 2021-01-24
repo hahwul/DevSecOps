@@ -43,19 +43,3 @@ $ ./distribute-readme
 $ git add data.json README.md ; git commit -m "commit and push" ; git push
 ```
 7. Make and Send PR(Pull Request)
-
-## Add i18n
-I welcome the Pull Request for the translation so that everyone can read it easily 😁
-1. fork this repo
-2. make directory and file to `i18m/*`
-e.g 
-```
-i18n/ko-KR/
-i18n/ko-KR/README.md
-i18n/ko-KR/DevSecOps.xml
-i18n/ko-KR/DevSecOps.png
-```
-3. Translate contents
-- The roadmap is built using [Draw.io](https://draw.io). Project file can be found at `DevSecOps.xml` file. To modify it, open [draw.io](https://draw.io)
-- When the translation is complete, save the xml and create an image (`DevSecOps.png`) file.
-4. Make and Send PR(Pull Request)
