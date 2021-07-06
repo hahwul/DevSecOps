@@ -18,6 +18,7 @@
 - [Roadmap](#-roadmap)
 - [Tools](#-tools)
 - [Resources](#resources)
+  * [0. DevSecOps Overview](#0-devsecops-overview)
   * [1. Design](#1-design)
   * [2. Develop](#2-develop)
   * [3. Build](#3-build)
@@ -38,6 +39,9 @@ Spending a lot of time on applying DevSecOps is searching, comparing, and making
 Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 
 ## 📦 Resources
+### 0. DevSecOps Overview
+  - Overview
+    1. [Zero to DevSecOps](https://owasp.org/www-chapter-belgium/assets/2019/2019-02-20/Zero-to-DevSecOps-OWASP-Meetup-02-19-19.pdf)
 ### 1. Design
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
