@@ -63,6 +63,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
     1. [Dynamic Application Security Testing with ZAP and GitHub Actions](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/) 
     2. [Dynamic Application Security Testing (DAST) in Gitlab](https://docs.gitlab.com/ee/user/application_security/dast/)
     3. [DAST using pdiscoveryio Nuclei (github action)](https://github.com/secopslab/nuclei-action)
+    4. [ZAPCon 2021-Democratizing ZAP with test automation and domain specific languages](https://youtu.be/jimW-R6_F4U)
   - Penetration testing
 ### 5. Deploy
   - Security Hardening & Config
