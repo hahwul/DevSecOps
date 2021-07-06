@@ -12,8 +12,6 @@
 
 > Roadmap for everyone who wants DevSecOps.
 
-[한글](./i18n/ko-KR/README.md)
-
 ## 📜 Table of Contents
 - [Roadmap](#-roadmap)
 - [Tools](#-tools)
@@ -41,7 +39,8 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 ## 📦 Resources
 ### 0. DevSecOps Overview
   - Overview
-    1. [Zero to DevSecOps](https://owasp.org/www-chapter-belgium/assets/2019/2019-02-20/Zero-to-DevSecOps-OWASP-Meetup-02-19-19.pdf)
+    1. [DevSecOps in Wikipedia](https://en.wikipedia.org/wiki/DevOps#DevSecOps,_Shifting_Security_Left)
+    2. [Zero to DevSecOps](https://owasp.org/www-chapter-belgium/assets/2019/2019-02-20/Zero-to-DevSecOps-OWASP-Meetup-02-19-19.pdf)
 ### 1. Design
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
