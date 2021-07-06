@@ -1,9 +1,4 @@
 {
- "OWASP Threat Dragon": {
-  "Data": "| Design/THREAT  | [OWASP Threat Dragon](https://threatdragon.github.io) |  Threat Dragon is an open-source threat modelling tool from OWASP|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
-  "Method": "THREAT",
-  "Type": "Design"
- },
  "SonarQube": {
   "Data": "| Build/SAST  | [SonarQube](https://www.sonarqube.org/) |  SonarQube is an open-source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities on 20+ programming languages.|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
   "Method": "SAST",
@@ -30,9 +25,9 @@
   "Type": "Build"
  },
  "kamus": {
-  "Type": "Build",
   "Data": "| Build/SECRET-MANAGE | [kamus](https://github.com/Soluto/kamus) | An open source, git-ops, zero-trust secret encryption and decryption solution for Kubernetes applications | ![](https://img.shields.io/github/stars/Soluto/kamus) | ![](https://img.shields.io/github/languages/top/Soluto/kamus) |",
-  "Method": "SECRET-MANAGE"
+  "Method": "SECRET-MANAGE",
+  "Type": "Build"
  },
  "metasploit-framework": {
   "Data": "| Test/PENTEST | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | ![](https://img.shields.io/github/stars/rapid7/metasploit-framework) | ![](https://img.shields.io/github/languages/top/rapid7/metasploit-framework) |",
@@ -43,6 +38,11 @@
   "Data": "| Test/PENTEST | [monkey](https://github.com/guardicore/monkey) | Infection Monkey - An automated pentest tool | ![](https://img.shields.io/github/stars/guardicore/monkey) | ![](https://img.shields.io/github/languages/top/guardicore/monkey) |",
   "Method": "PENTEST",
   "Type": "Test"
+ },
+ "owasp-threat-dragon-desktop": {
+  "Type": "Design",
+  "Data": "| Design/THREAT | [owasp-threat-dragon-desktop](https://github.com/mike-goodwin/owasp-threat-dragon-desktop) | An installable desktop variant of OWASP Threat Dragon | ![](https://img.shields.io/github/stars/mike-goodwin/owasp-threat-dragon-desktop) | ![](https://img.shields.io/github/languages/top/mike-goodwin/owasp-threat-dragon-desktop) |",
+  "Method": "THREAT"
  },
  "ptf": {
   "Data": "| Test/PENTEST | [ptf](https://github.com/trustedsec/ptf) | The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools. | ![](https://img.shields.io/github/stars/trustedsec/ptf) | ![](https://img.shields.io/github/languages/top/trustedsec/ptf) |",
