@@ -24,6 +24,11 @@
   "Method": "SAST",
   "Type": "Build"
  },
+ "dependency-track": {
+  "Type": "Operate and Monitor",
+  "Data": "| Operate and Monitor/COMPONENT-ANALYSIS | [dependency-track](https://github.com/DependencyTrack/dependency-track) | Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. | ![](https://img.shields.io/github/stars/DependencyTrack/dependency-track) | ![](https://img.shields.io/github/languages/top/DependencyTrack/dependency-track) |",
+  "Method": "COMPONENT-ANALYSIS"
+ },
  "kamus": {
   "Data": "| Build/SECRET-MANAGE | [kamus](https://github.com/Soluto/kamus) | An open source, git-ops, zero-trust secret encryption and decryption solution for Kubernetes applications | ![](https://img.shields.io/github/stars/Soluto/kamus) | ![](https://img.shields.io/github/languages/top/Soluto/kamus) |",
   "Method": "SECRET-MANAGE",
@@ -40,9 +45,9 @@
   "Type": "Test"
  },
  "owasp-threat-dragon-desktop": {
-  "Type": "Design",
   "Data": "| Design/THREAT | [owasp-threat-dragon-desktop](https://github.com/mike-goodwin/owasp-threat-dragon-desktop) | An installable desktop variant of OWASP Threat Dragon | ![](https://img.shields.io/github/stars/mike-goodwin/owasp-threat-dragon-desktop) | ![](https://img.shields.io/github/languages/top/mike-goodwin/owasp-threat-dragon-desktop) |",
-  "Method": "THREAT"
+  "Method": "THREAT",
+  "Type": "Design"
  },
  "ptf": {
   "Data": "| Test/PENTEST | [ptf](https://github.com/trustedsec/ptf) | The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools. | ![](https://img.shields.io/github/stars/trustedsec/ptf) | ![](https://img.shields.io/github/languages/top/trustedsec/ptf) |",
