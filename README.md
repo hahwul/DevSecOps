@@ -73,6 +73,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - Security Hardening & Config
     1. [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
   - Security Scanning
+    1. [Best practices for scanning images (docker)](https://docs.docker.com/develop/scan-images/)
 ### 6. Operate and Monitor
   - RASP(Run-time Application Security Protection)
     1. [Runtime Application Self-Protection by rapid7](https://www.rapid7.com/fundamentals/runtime-application-self-protection/)
