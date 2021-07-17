@@ -42,6 +42,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
     1. [DevSecOps in Wikipedia](https://en.wikipedia.org/wiki/DevOps#DevSecOps,_Shifting_Security_Left)
     2. [Zero to DevSecOps](https://owasp.org/www-chapter-belgium/assets/2019/2019-02-20/Zero-to-DevSecOps-OWASP-Meetup-02-19-19.pdf)
     3. [DevSecOps What Why And How (BlackHat USA-19)](https://i.blackhat.com/USA-19/Thursday/us-19-Shrivastava-DevSecOps-What-Why-And-How.pdf)
+    4. [DevSecOps – Security and Test Automation](https://www.mitre.org/sites/default/files/publications/pr-19-0769-devsecops_security_test_automation-briefing.pdf)
 ### 1. Design
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
@@ -69,6 +70,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
     3. [DAST using pdiscoveryio Nuclei (github action)](https://github.com/secopslab/nuclei-action)
     4. [ZAPCon 2021-Democratizing ZAP with test automation and domain specific languages](https://youtu.be/jimW-R6_F4U)
   - Penetration testing
+    1. [Penetration Testing at DevSecOps Speed](https://securityboulevard.com/2019/04/penetration-testing-at-devsecops-speed/)
 ### 5. Deploy
   - Security Hardening & Config
     1. [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
