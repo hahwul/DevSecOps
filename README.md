@@ -46,6 +46,8 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 ### 1. Design
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
+    2. [DevSecOps basics: 9 tips for shifting left (Gitlab)](https://about.gitlab.com/blog/2020/06/23/efficient-devsecops-nine-tips-shift-left/)
+    3. [6 Ways to bring security to the speed of DevOps (Gitlab)](https://about.gitlab.com/blog/2019/10/31/speed-security-devops/)
   - Threat Model
     1. [What is Threat Modeling / Wikipedia](https://en.wikipedia.org/wiki/Threat_model)
     2. [Threat Modeling by OWASP](https://owasp.org/www-community/Threat_Modeling)
@@ -89,8 +91,8 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 | ![](/assets/dod.png) | ![](/assets/LarryMaccherone.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |   U.S. Department of Defense           | Larry Maccherone                                       |
-| [![](https://i.imgur.com/pQXVOzS.png)](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf) |
-| The DevSecOps Security Checklist |
+| [![](https://i.imgur.com/pQXVOzS.png)](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf) | ![](https://about.gitlab.com/images/secure/security-diagram.svg) | 
+| The DevSecOps Security Checklist | Gitlab security devops diagram | 
 
 ## 🙏🏼 Wrap Up
 If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
