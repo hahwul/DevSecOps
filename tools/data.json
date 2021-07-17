@@ -30,14 +30,19 @@
   "Type": "Operate and Monitor"
  },
  "faraday": {
-  "Type": "Test",
   "Data": "| Test/PENTEST | [faraday](https://github.com/infobyte/faraday) | Collaborative Penetration Test and Vulnerability Management Platform | ![](https://img.shields.io/github/stars/infobyte/faraday) | ![](https://img.shields.io/github/languages/top/infobyte/faraday) |",
-  "Method": "PENTEST"
+  "Method": "PENTEST",
+  "Type": "Test"
  },
  "kamus": {
   "Data": "| Build/SECRET-MANAGE | [kamus](https://github.com/Soluto/kamus) | An open source, git-ops, zero-trust secret encryption and decryption solution for Kubernetes applications | ![](https://img.shields.io/github/stars/Soluto/kamus) | ![](https://img.shields.io/github/languages/top/Soluto/kamus) |",
   "Method": "SECRET-MANAGE",
   "Type": "Build"
+ },
+ "kube-hunter": {
+  "Type": "Operate and Monitor",
+  "Data": "| Operate and Monitor/K8S | [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Hunt for security weaknesses in Kubernetes clusters | ![](https://img.shields.io/github/stars/aquasecurity/kube-hunter) | ![](https://img.shields.io/github/languages/top/aquasecurity/kube-hunter) |",
+  "Method": "K8S"
  },
  "metasploit-framework": {
   "Data": "| Test/PENTEST | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | ![](https://img.shields.io/github/stars/rapid7/metasploit-framework) | ![](https://img.shields.io/github/languages/top/rapid7/metasploit-framework) |",
