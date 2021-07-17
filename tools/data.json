@@ -25,9 +25,14 @@
   "Type": "Build"
  },
  "dependency-track": {
-  "Type": "Operate and Monitor",
   "Data": "| Operate and Monitor/COMPONENT-ANALYSIS | [dependency-track](https://github.com/DependencyTrack/dependency-track) | Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. | ![](https://img.shields.io/github/stars/DependencyTrack/dependency-track) | ![](https://img.shields.io/github/languages/top/DependencyTrack/dependency-track) |",
-  "Method": "COMPONENT-ANALYSIS"
+  "Method": "COMPONENT-ANALYSIS",
+  "Type": "Operate and Monitor"
+ },
+ "faraday": {
+  "Type": "Test",
+  "Data": "| Test/PENTEST | [faraday](https://github.com/infobyte/faraday) | Collaborative Penetration Test and Vulnerability Management Platform | ![](https://img.shields.io/github/stars/infobyte/faraday) | ![](https://img.shields.io/github/languages/top/infobyte/faraday) |",
+  "Method": "PENTEST"
  },
  "kamus": {
   "Data": "| Build/SECRET-MANAGE | [kamus](https://github.com/Soluto/kamus) | An open source, git-ops, zero-trust secret encryption and decryption solution for Kubernetes applications | ![](https://img.shields.io/github/stars/Soluto/kamus) | ![](https://img.shields.io/github/languages/top/Soluto/kamus) |",
