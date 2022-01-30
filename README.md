@@ -46,8 +46,11 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 ### 1. Design
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
-    2. [DevSecOps basics: 9 tips for shifting left (Gitlab)](https://about.gitlab.com/blog/2020/06/23/efficient-devsecops-nine-tips-shift-left/)
-    3. [6 Ways to bring security to the speed of DevOps (Gitlab)](https://about.gitlab.com/blog/2019/10/31/speed-security-devops/)
+    2. [OWASP's Software Assurance Maturity Model](https://github.com/OWASP/samm)
+    3. [Building Security In Maturity Model (BSIMM)](https://www.bsimm.com/framework.html)
+    4. [NIST's Secure Software Developerment Framework](https://csrc.nist.gov/CSRC/media/Publications/white-paper/2019/06/07/mitigating-risk-of-software-vulnerabilities-with-ssdf/draft/documents/ssdf-for-mitigating-risk-of-software-vulns-draft.pdf)
+    5. [DevSecOps basics: 9 tips for shifting left (Gitlab)](https://about.gitlab.com/blog/2020/06/23/efficient-devsecops-nine-tips-shift-left/)
+    6. [6 Ways to bring security to the speed of DevOps (Gitlab)](https://about.gitlab.com/blog/2019/10/31/speed-security-devops/)
   - Threat Model
     1. [What is Threat Modeling / Wikipedia](https://en.wikipedia.org/wiki/Threat_model)
     2. [Threat Modeling by OWASP](https://owasp.org/www-community/Threat_Modeling)
@@ -86,6 +89,9 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - Security Audit
   - Security Monitor
   - Security Analysis
+
+## Awesome resources
+* https://github.com/TaptuIT/awesome-devsecops
 
 ## 🚀 Other roadmaps
 | ![](/assets/dod.png) | ![](/assets/LarryMaccherone.jpg) |
