@@ -79,6 +79,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 ### 5. Deploy
   - Security Hardening & Config
     1. [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
+    2. [DevSecOps in Kubernetes](https://cloudblogs.microsoft.com/opensource/2019/07/22/devsecops-in-kubernetes/)
   - Security Scanning
     1. [Best practices for scanning images (docker)](https://docs.docker.com/develop/scan-images/)
 ### 6. Operate and Monitor
