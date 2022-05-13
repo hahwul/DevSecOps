@@ -23,6 +23,8 @@
   * [4. Test](#4-test)
   * [5. Deploy](#5-deploy)
   * [6. Operate and Monitor](#6-operate-and-monitor)
+- [Security of CICD](#security-of-cicd)
+- [Awesome resources](#awesome-resources)
 - [Other roadmaps](#-other-roadmaps)
 - [Wrap Up](#-wrap-up)
 - [Contributors](#contributors)
@@ -90,6 +92,16 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - Security Audit
   - Security Monitor
   - Security Analysis
+
+## Security of CICD
+- Github Actions
+    1. [Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
+    2. [Github Actions Security Best Practices](https://engineering.salesforce.com/github-actions-security-best-practices-b8f9df5c75f5)
+    3. [GitHub Actions Security Best Practices [cheat sheet included]](https://blog.gitguardian.com/github-actions-security-cheat-sheet/)
+- Jenkins
+    1. [Securing Jenkins](https://www.jenkins.io/doc/book/security/)
+    2. [Securing Jenkins CI Systems by SANS](https://www.sans.org/white-papers/36872/)
+    3. [DEPRECATED/chef-jenkins-hardening](https://github.com/dev-sec/chef-jenkins-hardening)
 
 ## Awesome resources
 * https://github.com/TaptuIT/awesome-devsecops
