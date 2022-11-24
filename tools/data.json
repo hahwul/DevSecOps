@@ -34,6 +34,11 @@
   "Method": "PENTEST",
   "Type": "Test"
  },
+ "ggshield – GitGuardian CLI": {
+  "Data": "| Build/SAST | [ggshield](https://github.com/GitGuardian/ggshield) | An open source CLI from GitGuardian to detect 350+ types of hardcoded secrets and 70+ IaC misconfigurations | ![](https://img.shields.io/github/stars/GitGuardian/ggshield) | ![](https://img.shields.io/github/languages/top/GitGuardian/ggshield) |",
+  "Method": "SAST",
+  "Type": "Build"
+ }, 
  "kamus": {
   "Data": "| Build/SECRET-MANAGE | [kamus](https://github.com/Soluto/kamus) | An open source, git-ops, zero-trust secret encryption and decryption solution for Kubernetes applications | ![](https://img.shields.io/github/stars/Soluto/kamus) | ![](https://img.shields.io/github/languages/top/Soluto/kamus) |",
   "Method": "SECRET-MANAGE",
