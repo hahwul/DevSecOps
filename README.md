@@ -92,6 +92,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - Security Patch
   - Security Audit
   - Security Monitor
+    1. [Attack Surface Analysis Cheat Sheet by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
   - Security Analysis
 
 ## Security of CICD
