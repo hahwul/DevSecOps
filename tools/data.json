@@ -38,16 +38,16 @@
   "Data": "| Build/SAST | [ggshield](https://github.com/GitGuardian/ggshield) | An open source CLI from GitGuardian to detect 350+ types of hardcoded secrets and 70+ IaC misconfigurations | ![](https://img.shields.io/github/stars/GitGuardian/ggshield) | ![](https://img.shields.io/github/languages/top/GitGuardian/ggshield) |",
   "Method": "SAST",
   "Type": "Build"
- }, 
+ },
  "kamus": {
   "Data": "| Build/SECRET-MANAGE | [kamus](https://github.com/Soluto/kamus) | An open source, git-ops, zero-trust secret encryption and decryption solution for Kubernetes applications | ![](https://img.shields.io/github/stars/Soluto/kamus) | ![](https://img.shields.io/github/languages/top/Soluto/kamus) |",
   "Method": "SECRET-MANAGE",
   "Type": "Build"
  },
  "kube-hunter": {
-  "Type": "Operate and Monitor",
   "Data": "| Operate and Monitor/K8S | [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Hunt for security weaknesses in Kubernetes clusters | ![](https://img.shields.io/github/stars/aquasecurity/kube-hunter) | ![](https://img.shields.io/github/languages/top/aquasecurity/kube-hunter) |",
-  "Method": "K8S"
+  "Method": "K8S",
+  "Type": "Operate and Monitor"
  },
  "metasploit-framework": {
   "Data": "| Test/PENTEST | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | ![](https://img.shields.io/github/stars/rapid7/metasploit-framework) | ![](https://img.shields.io/github/languages/top/rapid7/metasploit-framework) |",
@@ -58,6 +58,11 @@
   "Data": "| Test/PENTEST | [monkey](https://github.com/guardicore/monkey) | Infection Monkey - An automated pentest tool | ![](https://img.shields.io/github/stars/guardicore/monkey) | ![](https://img.shields.io/github/languages/top/guardicore/monkey) |",
   "Method": "PENTEST",
   "Type": "Test"
+ },
+ "nuclei": {
+  "Type": "Test",
+  "Data": "| Test/PENTEST | [nuclei](https://github.com/projectdiscovery/nuclei) | Fast and customizable vulnerability scanner based on simple YAML based DSL. | ![](https://img.shields.io/github/stars/projectdiscovery/nuclei) | ![](https://img.shields.io/github/languages/top/projectdiscovery/nuclei) |",
+  "Method": "PENTEST"
  },
  "owasp-threat-dragon-desktop": {
   "Data": "| Design/THREAT | [owasp-threat-dragon-desktop](https://github.com/mike-goodwin/owasp-threat-dragon-desktop) | An installable desktop variant of OWASP Threat Dragon | ![](https://img.shields.io/github/stars/mike-goodwin/owasp-threat-dragon-desktop) | ![](https://img.shields.io/github/languages/top/mike-goodwin/owasp-threat-dragon-desktop) |",
