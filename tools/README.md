@@ -31,6 +31,7 @@ Spending a lot of time on applying DevSecOps is searching, comparing, and making
 | Test/PENTEST | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | ![](https://img.shields.io/github/stars/rapid7/metasploit-framework) | ![](https://img.shields.io/github/languages/top/rapid7/metasploit-framework) |
 | Test/PENTEST | [monkey](https://github.com/guardicore/monkey) | Infection Monkey - An automated pentest tool | ![](https://img.shields.io/github/stars/guardicore/monkey) | ![](https://img.shields.io/github/languages/top/guardicore/monkey) |
 | Test/PENTEST | [ptf](https://github.com/trustedsec/ptf) | The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools. | ![](https://img.shields.io/github/stars/trustedsec/ptf) | ![](https://img.shields.io/github/languages/top/trustedsec/ptf) |
+| Test/PENTEST | [nuclei](https://github.com/projectdiscovery/nuclei) | Fast and customisable vulnerability scanner based on simple YAML based DSL. | ![](https://img.shields.io/github/stars/projectdiscovery/nuclei) | ![](https://img.shields.io/github/languages/top/projectdiscovery/nuclei) |
 
 ## How to Contribute this
 Please read [Contributing](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md) document!
