@@ -94,7 +94,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
     1. RASP(Runtime Application Self-Protection)
   - Security Audit
   - Security Monitor
-    1. IAST(Interactive Application Security Testig)
+    1. IAST(Interactive Application Security Testing)
     2. Metrics, Monitoring, Alerting
   - Security Analysis
     1. [Attack Surface Analysis Cheat Sheet by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
