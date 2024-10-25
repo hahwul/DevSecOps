@@ -4,6 +4,21 @@
   "Method": "SAST",
   "Type": "Build"
  },
+ "Gitleaks": {
+    "Data": "| Build/SAST | [Gitleaks](https://github.com/gitleaks/gitleaks) | Gitleaks is a SAST tool for detecting hardcoded secrets like API keys, tokens, and passwords in Git repositories, providing a CLI, GitHub Action, and pre-commit hooks for secret detection. | ![](https://img.shields.io/github/stars/gitleaks/gitleaks) | ![](https://img.shields.io/github/languages/top/gitleaks/gitleaks) |",
+    "Method": "SAST",
+    "Type": "Build"
+   },
+   "Trivy": {
+    "Data": "| Operate and Monitor/SECURITY-SCAN | [Trivy](https://github.com/aquasecurity/trivy) | Trivy is an open-source, all-in-one security scanner for container images, file systems, and Git repositories, detecting vulnerabilities and misconfigurations. | ![](https://img.shields.io/github/stars/aquasecurity/trivy) | ![](https://img.shields.io/github/languages/top/aquasecurity/trivy) |",
+    "Method": "SECURITY-SCAN",
+    "Type": "Operate and Monitor"
+   },
+   "Prowler": {
+    "Data": "| Operate and Monitor/SECURITY-AUDIT | [Prowler](https://github.com/prowler-cloud/prowler) | Prowler is a security tool for AWS, providing over 100 checks for compliance with standards like CIS, GDPR, and HIPAA, and auditing AWS account configurations. | ![](https://img.shields.io/github/stars/prowler-cloud/prowler) | ![](https://img.shields.io/github/languages/top/prowler-cloud/prowler) |",
+    "Method": "SECURITY-AUDIT",
+    "Type": "Operate and Monitor"
+   },
  "action-baseline": {
   "Data": "| Test/DAST | [action-baseline](https://github.com/zaproxy/action-baseline) | A GitHub Action for running the OWASP ZAP Baseline scan | ![](https://img.shields.io/github/stars/zaproxy/action-baseline) | ![](https://img.shields.io/github/languages/top/zaproxy/action-baseline) |",
   "Method": "DAST",
