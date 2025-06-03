@@ -148,4 +148,4 @@ If you think the roadmap can be improved, please do open a PR with any updates a
 Idea from: [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
 
 ## Contributors
-![](CONTRIBUTORS.svg)
+![](CONTRIBUTORS.svg "Contributors List")
