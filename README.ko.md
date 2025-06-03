@@ -123,7 +123,7 @@ DevSecOps는 소프트웨어 개발 수명 주기(SDLC)의 모든 단계에 보�
   - 보안 감사
   - 보안 모니터
     1. IAST(Interactive Application Security Testing)
-       - [IAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/TEST-003-Interactive-Application-Securit-Testing-IAST.md)
+       - [IAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/TEST-003-Interactive-Application-Security-Testing-IAST.md)
     2. 지표, 모니터링, 알림
   - 보안 분석
     1. [Attack Surface Analysis Cheat Sheet by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
