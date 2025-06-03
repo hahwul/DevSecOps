@@ -12,7 +12,8 @@
 
 <p align="center">
   <a href="./README.md">English</a> •
-  <a href="./README.ko.md">Korean</a>
+  <a href="./README.ko.md">한국어</a> •
+  <a href="./README.jp.md">日本語</a>
 </p>
 
 > Roadmap for everyone who wants DevSecOps.

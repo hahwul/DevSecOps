@@ -16,57 +16,57 @@
   <a href="./README.jp.md">日本語</a>
 </p>
 
-> DevSecOps를 원하는 모든 사람을 위한 로드맵입니다.
+> DevSecOpsを始めたいすべての人のためのロードマップ。
 
-## DevSecOps란 무엇이며 왜 중요할까요?
-DevSecOps는 소프트웨어 개발 수명 주기(SDLC)의 모든 단계에 보안을 통합하는 것을 목표로 하는 문화이자 관행입니다.
-개발, 보안 및 운영 팀 간의 협업을 강조합니다.
-목표는 처음부터 안전한 소프트웨어를 구축하고, 취약점을 줄이며, 더 빠르고 안전한 배포를 보장하는 것입니다.
-이 로드맵은 개인과 조직이 DevSecOps 관행을 구현하는 데 도움이 되는 엄선된 리소스와 도구 목록을 제공합니다.
+## DevSecOpsとは何か、なぜ重要なのか？
+DevSecOpsは、ソフトウェア開発ライフサイクル（SDLC）の各フェーズにセキュリティを統合することを目指す文化であり実践です。
+開発チーム、セキュリティチーム、運用チーム間のコラボレーションを重視します。
+目標は、脆弱性を減らし、より迅速で安全なデプロイメントを保証するために、最初から安全なソフトウェアを構築することです。
+このロードマップは、個人や組織がDevSecOpsの実践を導入するのに役立つリソースとツールの厳選されたリストを提供します。
 
-## 📜 목차
-- [로드맵](#-로드맵)
-- [도구](#-도구)
-- [리소스](#리소스)
-  * [0. DevSecOps 개요](#0-devsecops-개요)
-  * [1. 설계](#1-설계)
-  * [2. 개발](#2-개발)
-  * [3. 빌드](#3-빌드)
-  * [4. 테스트](#4-테스트)
-  * [5. 배포](#5-배포)
-  * [6. 운영 및 모니터링](#6-운영-및-모니터링)
-- [CICD 보안](#cicd-보안)
-- [Awesome resources](#awesome-resources)
-- [다른 로드맵](#-다른-로드맵)
-- [마무리](#-마무리)
-- [기여자](#기여자)
-- [기여하기](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
+## 📜 目次
+- [ロードマップ](#-ロードマップ)
+- [ツール](#-ツール)
+- [リソース](#リソース)
+  * [0. DevSecOps概要](#0-devsecops概要)
+  * [1. 設計](#1-設計)
+  * [2. 開発](#2-開発)
+  * [3. ビルド](#3-ビルド)
+  * [4. テスト](#4-テスト)
+  * [5. デプロイ](#5-デプロイ)
+  * [6. 運用と監視](#6-運用と監視)
+- [CICDのセキュリティ](#cicdのセキュリティ)
+- [素晴らしいリソース](#素晴らしいリソース)
+- [その他のロードマップ](#-その他のロードマップ)
+- [まとめ](#-まとめ)
+- [貢献者](#貢献者)
+- [貢献する](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
 
-## 📖 이 로드맵 사용 방법
-이 로드맵은 DevSecOps 관행을 채택하거나 개선하려는 개인 및 조직을 위한 포괄적인 가이드로 설계되었습니다. 최대한 활용하는 방법은 다음과 같습니다.
+## 📖 このロードマップの使い方
+このロードマップは、DevSecOpsの実践を採用または改善しようとしている個人や組織のための包括的なガイドとして設計されています。最大限に活用する方法は次のとおりです。
 
-1.  **기본 사항 이해:** DevSecOps를 처음 사용하는 경우 "DevSecOps란 무엇이며 왜 중요한가요?" 섹션부터 시작하여 기본 사항을 이해하십시오.
-2.  **큰 그림 보기:** 기본 **로드맵** 이미지는 DevSecOps 내의 다양한 단계와 영역에 대한 시각적 개요를 제공합니다. 이를 사용하여 방향을 잡으십시오.
-3.  **도구 탐색:** **도구** 섹션에서는 다양한 DevSecOps 기능을 구현하는 데 도움이 되는 엄선된 소프트웨어 및 서비스 목록을 제공합니다.
-4.  **리소스 살펴보기:** **리소스** 섹션은 DevSecOps 수명 주기(설계, 개발, 빌드, 테스트, 배포, 운영 및 모니터링)별로 분류되어 있습니다. 각 범주에는 기사, 가이드 및 공식 문서에 대한 링크가 포함되어 있습니다. 특정 요구 사항이나 관심 분야에 따라 이러한 항목을 탐색할 수 있습니다.
-5.  **CI/CD 보안에 집중:** 파이프라인 보안에 중점을 둔다면 **CICD 보안** 섹션에서 대상 리소스를 제공합니다.
-6.  **기여:** 이것은 커뮤니티 중심의 노력입니다. 제안 사항이 있거나, 깨진 링크를 발견하거나, 새로운 리소스를 추가하려면 [CONTRIBUTING.md](CONTRIBUTING.md) 가이드를 참조하십시오.
+1.  **基本を理解する：** DevSecOpsが初めての場合は、「DevSecOpsとは何か、なぜ重要なのか？」セクションから始めて、基礎的な理解を深めてください。
+2.  **全体像を見る：** メインの**ロードマップ**画像は、DevSecOps内のさまざまな段階と領域の視覚的な概要を示しています。これを使用して自分自身を方向付けてください。
+3.  **ツールを探る：** **ツール**セクションでは、さまざまなDevSecOps機能を実装するのに役立つソフトウェアとサービスの厳選されたリストを提供しています。
+4.  **リソースを深く掘り下げる：** **リソース**セクションは、DevSecOpsライフサイクル（設計、開発、ビルド、テスト、デプロイ、運用と監視）によって分類されています。各カテゴリには、記事、ガイド、および公式ドキュメントへのリンクが含まれています。特定のニーズや関心のある分野に基づいてこれらを調べることができます。
+5.  **CI/CDセキュリティに焦点を当てる：** パイプラインの保護に焦点を当てている場合は、**CICDのセキュリティ**セクションで対象となるリソースを提供しています。
+6.  **貢献する：** これはコミュニティ主導の取り組みです。提案がある場合、リンク切れを見つけた場合、または新しいリソースを追加したい場合は、[CONTRIBUTING.md](CONTRIBUTING.md)ガイドをご覧ください。
 
-선형적으로 진행할 필요는 없습니다. 현재 과제나 학습 목표와 가장 관련성이 높은 섹션으로 자유롭게 이동하십시오.
+直線的に進む必要はありません。現在の課題や学習目標に最も関連性の高いセクションに自由にジャンプしてください。
 
-## 💭 로드맵
+## 💭 ロードマップ
 ![Roadmap](./DevSecOps.png)
 
-## 🔩 도구
-이 프로젝트에는 DevSecOps 관행을 구현하는 데 도움이 되는 엄선된 도구 목록이 포함되어 있습니다. 이러한 도구는 SAST(Static Application Security Testing), DAST(Dynamic Application Security Testing), 비밀 관리, 위협 모델링, 구성 요소 분석 등 SDLC의 다양한 단계를 다룹니다.
+## 🔩 ツール
+このプロジェクトには、DevSecOpsの実践を実装するのに役立つツールの厳選されたリストが含まれています。これらのツールは、静的アプリケーションセキュリティテスト（SAST）、動的アプリケーションセキュリティテスト（DAST）、シークレット管理、脅威モデリング、コンポーネント分析など、SDLCのさまざまな段階をカバーしています。
 
-➡️ [**DevSecOps 도구 목록 살펴보기**](./tools/README.md)
+➡️ [**DevSecOpsツールリストを探る**](./tools/README.md)
 
-이 목록은 도구를 빠르게 찾고 비교하여 검색 및 의사 결정에 소요되는 시간을 줄이는 데 도움이 되도록 설계되었습니다.
+このリストは、ツールをすばやく見つけて比較し、検索と意思決定にかかる時間を短縮できるように設計されています。
 
-## 📦 리소스
-### 0. DevSecOps 개요
-  - 개요
+## 📦 リソース
+### 0. DevSecOps概要
+  - 概要
     1. [DevSecOps in Wikipedia](https://en.wikipedia.org/wiki/DevOps#DevSecOps,_Shifting_Security_Left)
     2. [Zero to DevSecOps (OWASP Meetup)](https://owasp.org/www-chapter-belgium/assets/2019/2019-02-20/Zero-to-DevSecOps-OWASP-Meetup-02-19-19.pdf)
     3. [DevSecOps What Why And How (BlackHat USA-19)](https://i.blackhat.com/USA-19/Thursday/us-19-Shrivastava-DevSecOps-What-Why-And-How.pdf)
@@ -75,60 +75,60 @@ DevSecOps는 소프트웨어 개발 수명 주기(SDLC)의 모든 단계에 보�
     6. [Strengthen and Scale security using DevSecOps](https://owasp.org/www-pdf-archive/Devsecops-owasp-indonesia.pdf)
     7. [DSOVS (OWASP DevSecOps Verification Standard)](https://owasp.org/www-project-devsecops-verification-standard/)
     8. [What is DevSecOps? (Github)](https://github.com/resources/articles/devops/devsecops)
-### 1. 설계
-  - 개발 수명 주기
+### 1. 設計
+  - 開発ライフサイクル
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
     2. [OWASP's Software Assurance Maturity Model](https://github.com/OWASP/samm)
     3. [Building Security In Maturity Model (BSIMM)](https://www.bsimm.com/framework.html)
     4. [NIST's Secure Software Development Framework](https://csrc.nist.gov/CSRC/media/Publications/white-paper/2019/06/07/mitigating-risk-of-software-vulnerabilities-with-ssdf/draft/documents/ssdf-for-mitigating-risk-of-software-vulns-draft.pdf)
     5. [DevSecOps basics: 9 tips for shifting left (Gitlab)](https://about.gitlab.com/blog/2020/06/23/efficient-devsecops-nine-tips-shift-left/)
     6. [6 Ways to bring security to the speed of DevOps (Gitlab)](https://about.gitlab.com/blog/2019/10/31/speed-security-devops/)
-  - 위협 모델
+  - 脅威モデル
     1. [What is Threat Modeling / Wikipedia](https://en.wikipedia.org/wiki/Threat_model)
     2. [Threat Modeling by OWASP](https://owasp.org/www-community/Threat_Modeling)
     3. [Application Threat Modeling by OWASP](https://owasp.org/www-community/Application_Threat_Modeling)
     4. [Agile Threat Modeling Toolkit](https://threagile.io)
     5. [OWASP Threat Dragon](https://threatdragon.github.io)
-### 2. 개발
-  - 보안 코딩
+### 2. 開発
+  - セキュアコーディング
     1. [Secure coding guide by Apple](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html)
     2. [Secure Coding Guidelines for Java SE](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
     3. [Go-SCP / Go programming language secure coding practices guide](https://github.com/OWASP/Go-SCP)
     4. [Android App security best practices by Google](https://developer.android.com/topic/security/best-practices)
     5. [Securing Rails Applications](https://guides.rubyonrails.org/security.html)
-### 3. 빌드
+### 3. ビルド
   - SAST(Static Application Security Testing)
     1. [Scan Source Code using Static Application Security Testing (SAST) with SonarQube, Part 1](https://medium.com/nycdev/scan-your-source-code-for-vulnerabilities-using-static-application-security-testing-sast-with-5f8ee1fdf9aa)
-    2. [Announcing third-party code scanning tools: static analysis & developer security training](https://github.blog/2020-10-05-announcing-third-party-code-scanning-tools-static-analysis-and-developer-security-training/)
+    2. [Announcing third-party code-scanning tools: static analysis & developer security training](https://github.blog/2020-10-05-announcing-third-party-code-scanning-tools-static-analysis-and-developer-security-training/)
     3. [SAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/CODE-004-Static-Application-Security-Testing-SAST.md)
-### 4. 테스트
+### 4. テスト
   - DAST(Dynamic Application Security Testing)
     1. [Dynamic Application Security Testing with ZAP and GitHub Actions](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/)
     2. [Dynamic Application Security Testing (DAST) in Gitlab](https://docs.gitlab.com/ee/user/application_security/dast/)
     3. [DAST using projectdiscovery Nuclei (github action)](https://github.com/secopslab/nuclei-action)
     4. [ZAPCon 2021-Democratizing ZAP with test automation and domain specific languages](https://youtu.be/jimW-R6_F4U)
     5. [DAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/TEST-002-Dynamic-Application-Security-Testing-DAST.md)
-  - 침투 테스트
+  - ペネトレーションテスト
     1. [Penetration Testing at DevSecOps Speed](https://securityboulevard.com/2019/04/penetration-testing-at-devsecops-speed/)
-### 5. 배포
-  - 보안 강화 및 구성
+### 5. デプロイ
+  - セキュリティ強化と設定
     1. [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
     2. [DevSecOps in Kubernetes](https://cloudblogs.microsoft.com/opensource/2019/07/22/devsecops-in-kubernetes/)
-  - 보안 스캐닝
+  - セキュリティスキャン
     1. [Best practices for scanning images (docker)](https://docs.docker.com/develop/scan-images/)
-### 6. 운영 및 모니터링
+### 6. 運用と監視
   - RASP(Run-time Application Security Protection)
     1. [Runtime Application Self-Protection by rapid7](https://www.rapid7.com/fundamentals/runtime-application-self-protection/)
     2. [Jumpstarting your devsecops - Pipeline with IAST and RASP](https://2018.appsec.eu/presos/DevOps_Jumpstarting-Your-DevSecOps_Jeff-Williams_AppSecEU2018.pdf)
-  - 보안 감사
-  - 보안 모니터
+  - セキュリティ監査
+  - セキュリティ監視
     1. IAST(Interactive Application Security Testing)
        - [IAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/TEST-003-Interactive-Application-Securit-Testing-IAST.md)
-    2. 지표, 모니터링, 알림
-  - 보안 분석
+    2. メトリクス、監視、アラート
+  - セキュリティ分析
     1. [Attack Surface Analysis Cheat Sheet by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
 
-## CICD 보안
+## CICDのセキュリティ
 - Github Actions
     1. [Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
     2. [Github Actions Security Best Practices](https://engineering.salesforce.com/github-actions-security-best-practices-b8f9df5c75f5)
@@ -138,20 +138,20 @@ DevSecOps는 소프트웨어 개발 수명 주기(SDLC)의 모든 단계에 보�
     2. [Securing Jenkins CI Systems by SANS](https://www.sans.org/white-papers/36872/)
     3. [DEPRECATED/chef-jenkins-hardening](https://github.com/dev-sec/chef-jenkins-hardening)
 
-### Awesome Resources
+### 素晴らしいリソース
 * https://github.com/TaptuIT/awesome-devsecops
 
-## 🚀 다른 로드맵
+## 🚀 その他のロードマップ
 | ![](assets/dod.png "DoD logo") | ![](assets/LarryMaccherone.jpg "Larry Maccherone portrait") |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |   U.S. Department of Defense           | Larry Maccherone                                       |
 | [![DevSecOps Security Checklist](https://i.imgur.com/pQXVOzS.png)](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf) | [![GitLab Security DevOps Diagram](https://about.gitlab.com/images/secure/security-diagram.svg)](https://about.gitlab.com/solutions/dev-sec-ops/) |
 | The DevSecOps Security Checklist | Gitlab security devops diagram |
 
-## 🙏🏼 마무리
-로드맵을 개선할 수 있다고 생각되면 언제든지 PR을 열어 업데이트하고 문제를 제출하십시오. 또한 이 로드맵을 계속 개선할 것이므로 이 저장소를 즐겨찾기에 추가하여 다시 방문할 수 있습니다.
+## 🙏🏼 まとめ
+ロードマップを改善できると思われる場合は、PRを開いて更新を送信し、問題を送信してください。また、今後も改善を続けていきますので、このリポジトリにスターを付けて再訪することをお勧めします。
 
-아이디어 출처: [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
+アイデア元: [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
 
-## 기여자
+## 貢献者
 ![](CONTRIBUTORS.svg "Contributors List")
