@@ -123,7 +123,7 @@ This list is designed to help you quickly find and compare tools, reducing the t
   - Security Audit
   - Security Monitor
     1. IAST(Interactive Application Security Testing)
-       - [IAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/TEST-003-Interactive-Application-Securit-Testing-IAST.md)
+       - [IAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/TEST-003-Interactive-Application-Security-Testing-IAST.md)
     2. Metrics, Monitoring, Alerting
   - Security Analysis
     1. [Attack Surface Analysis Cheat Sheet by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
