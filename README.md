@@ -10,6 +10,11 @@
   <a href="https://github.com/hahwul"><img src="https://img.shields.io/github/stars/hahwul?style=flat&logo=github"></a>
 </h1>
 
+<p align="center">
+  <a href="./README.md">English</a> •
+  <a href="./README.ko.md">Korean</a>
+</p>
+
 > Roadmap for everyone who wants DevSecOps.
 
 ## What is DevSecOps and Why is it Important?

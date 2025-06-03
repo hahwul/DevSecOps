@@ -10,6 +10,11 @@
   <a href="https://github.com/hahwul"><img src="https://img.shields.io/github/stars/hahwul?style=flat&logo=github"></a>
 </h1>
 
+<p align="center">
+  <a href="./README.md">English</a> •
+  <a href="./README.ko.md">Korean</a>
+</p>
+
 > DevSecOps를 원하는 모든 사람을 위한 로드맵입니다.
 
 ## DevSecOps란 무엇이며 왜 중요할까요?
