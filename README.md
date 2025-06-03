@@ -136,7 +136,7 @@ This list is designed to help you quickly find and compare tools, reducing the t
 * https://github.com/TaptuIT/awesome-devsecops
 
 ## 🚀 Other roadmaps
-| ![](assets/dod.png) | ![](assets/LarryMaccherone.jpg) |
+| ![](assets/dod.png "DoD logo") | ![](assets/LarryMaccherone.jpg "Larry Maccherone portrait") |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |   U.S. Department of Defense           | Larry Maccherone                                       |
 | [![DevSecOps Security Checklist](https://i.imgur.com/pQXVOzS.png)](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf) | [![GitLab Security DevOps Diagram](https://about.gitlab.com/images/secure/security-diagram.svg)](https://about.gitlab.com/solutions/dev-sec-ops/) | 
