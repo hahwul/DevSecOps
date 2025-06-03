@@ -139,7 +139,7 @@ This list is designed to help you quickly find and compare tools, reducing the t
 | ![](assets/dod.png) | ![](assets/LarryMaccherone.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |   U.S. Department of Defense           | Larry Maccherone                                       |
-| [![](https://i.imgur.com/pQXVOzS.png)](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf) | [![](https://about.gitlab.com/images/secure/security-diagram.svg)](https://about.gitlab.com/solutions/dev-sec-ops/) | 
+| [![DevSecOps Security Checklist](https://i.imgur.com/pQXVOzS.png)](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf) | [![GitLab Security DevOps Diagram](https://about.gitlab.com/images/secure/security-diagram.svg)](https://about.gitlab.com/solutions/dev-sec-ops/) | 
 | The DevSecOps Security Checklist | Gitlab security devops diagram | 
 
 ## 🙏🏼 Wrap Up
