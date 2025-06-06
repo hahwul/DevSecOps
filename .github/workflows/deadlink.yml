@@ -1,0 +1,42 @@
+---
+name: DeadLink
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Find Broken Link
+        uses: hahwul/deadfinder@1.7.1
+        id: broken-link
+        with:
+          command: url
+          target: https://github.com/hahwul/DevSecOps
+      - name: Create Markdown Table from JSON
+        id: create-markdown-table
+        run: |
+          echo "## DeadLink Report" > deadlink_report.md
+          echo "" >> deadlink_report.md
+          echo "| Target URL | Deadlink   |" >> deadlink_report.md
+          echo "|------------|------------|" >> deadlink_report.md
+          echo '${{ steps.broken-link.outputs.output }}' | jq -r 'to_entries[] | .key as $k | .value[] | "| \($k) | \(.) |"' >> deadlink_report.md
+      - name: Read Markdown Table from File
+        id: read-markdown-table
+        run: |
+          table_content=$(cat deadlink_report.md)
+          echo "TABLE_CONTENT<<EOF" >> $GITHUB_ENV
+          echo "$table_content" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      - name: Create an issue
+        uses: dacbd/create-issue-action@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: DeadLink Issue
+          body: ${{ env.TABLE_CONTENT }}
