@@ -74,7 +74,7 @@ DevSecOps는 소프트웨어 개발 수명 주기(SDLC)의 모든 단계에 보�
     5. [DevSecOps: Making Security Central To Your DevOps Pipeline](https://spacelift.io/blog/what-is-devsecops)
     6. [Strengthen and Scale security using DevSecOps](https://owasp.org/www-pdf-archive/Devsecops-owasp-indonesia.pdf)
     7. [DSOVS (OWASP DevSecOps Verification Standard)](https://owasp.org/www-project-devsecops-verification-standard/)
-    8. [What is DevSecOps? (Github)](https://github.com/resources/articles/devops/devsecops)
+    8. [What is DevSecOps? (Github)](https://github.blog/enterprise-software/devsecops/)
 ### 1. 설계
   - 개발 수명 주기
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
@@ -115,7 +115,7 @@ DevSecOps는 소프트웨어 개발 수명 주기(SDLC)의 모든 단계에 보�
     1. [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
     2. [DevSecOps in Kubernetes](https://cloudblogs.microsoft.com/opensource/2019/07/22/devsecops-in-kubernetes/)
   - 보안 스캐닝
-    1. [Best practices for scanning images (docker)](https://docs.docker.com/develop/scan-images/)
+    1. [Best practices for scanning images (docker)](https://docs.docker.com/scout/)
 ### 6. 운영 및 모니터링
   - RASP(Run-time Application Security Protection)
     1. [Runtime Application Self-Protection by rapid7](https://www.rapid7.com/fundamentals/runtime-application-self-protection/)
