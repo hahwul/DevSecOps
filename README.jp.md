@@ -1,22 +1,24 @@
-<h1 align="center">
-  <br>
-  <a href=""><img src="https://user-images.githubusercontent.com/13212227/99404580-2374f000-292f-11eb-9348-284f24cca88c.png" alt="" width="500px;"></a>
-  <br>
-  <img src="https://img.shields.io/badge/PRs-welcome-blue">
-  <img src="https://img.shields.io/github/last-commit/hahwul/DevSecOps">
-  <img src="https://github.com/hahwul/DevSecOps/workflows/CodeQL/badge.svg">
-  <img src="https://api.codacy.com/project/badge/Grade/e5fd334a431848dcb6ecdb3784fb5dfb">
-  <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat&logo=twitter"></a>
-  <a href="https://github.com/hahwul"><img src="https://img.shields.io/github/stars/hahwul?style=flat&logo=github"></a>
-</h1>
+<div align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/devsecops-dark.png" width="500px;">
+      <source media="(prefers-color-scheme: light)" srcset="assets/devsecops-light.png" width="500px;">
+      <img alt="DevSecOps Logo" src="assets/devsecops-dark.png" width="500px;">
+    </picture>
+    <p>DevSecOpsを始めたいすべての人のためのロードマップ。</p>
+</div>
 
 <p align="center">
-  <a href="./README.md">English</a> •
-  <a href="./README.ko.md">한국어</a> •
-  <a href="./README.jp.md">日本語</a>
+<a href="https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md">
+<img src="https://img.shields.io/badge/CONTRIBUTIONS-WELCOME-000000?style=for-the-badge&labelColor=black"></a>
+<a href="./README.md">
+<img src="https://img.shields.io/badge/English-000000?style=for-the-badge&labelColor=black"></a>
+<a href="./README.ko.md">
+<img src="https://img.shields.io/badge/한국어-000000?style=for-the-badge&labelColor=black"></a>
+<a href="./README.jp.md">
+<img src="https://img.shields.io/badge/日本語-000000?style=for-the-badge&labelColor=black"></a>
 </p>
 
-> DevSecOpsを始めたいすべての人のためのロードマップ。
+<p>DevSecOpsを始めたいすべての人のためのロードマップ。</p>
 
 ## DevSecOpsとは何か、なぜ重要なのか？
 DevSecOpsは、ソフトウェア開発ライフサイクル（SDLC）の各フェーズにセキュリティを統合することを目指す文化であり実践です。
