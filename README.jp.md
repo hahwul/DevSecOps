@@ -18,8 +18,6 @@
 <img src="https://img.shields.io/badge/日本語-000000?style=for-the-badge&labelColor=black"></a>
 </p>
 
-<p>DevSecOpsを始めたいすべての人のためのロードマップ。</p>
-
 ## DevSecOpsとは何か、なぜ重要なのか？
 DevSecOpsは、ソフトウェア開発ライフサイクル（SDLC）の各フェーズにセキュリティを統合することを目指す文化であり実践です。
 開発チーム、セキュリティチーム、運用チーム間のコラボレーションを重視します。

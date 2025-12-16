@@ -4,7 +4,7 @@
       <source media="(prefers-color-scheme: light)" srcset="assets/devsecops-light.png" width="500px;">
       <img alt="DevSecOps Logo" src="assets/devsecops-dark.png" width="500px;">
     </picture>
-    <p>Roadmap for everyone who wants DevSecOps.</p>
+    <p>DevSecOps를 원하는 모든 사람을 위한 로드맵입니다.</p>
 </div>
 
 <p align="center">
@@ -17,8 +17,6 @@
 <a href="./README.jp.md">
 <img src="https://img.shields.io/badge/日本語-000000?style=for-the-badge&labelColor=black"></a>
 </p>
-
-<p>DevSecOps를 원하는 모든 사람을 위한 로드맵입니다.</p>
 
 ## DevSecOps란 무엇이며 왜 중요할까요?
 DevSecOps는 소프트웨어 개발 수명 주기(SDLC)의 모든 단계에 보안을 통합하는 것을 목표로 하는 문화이자 관행입니다.
