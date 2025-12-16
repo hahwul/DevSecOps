@@ -1,8 +1,8 @@
 <div align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="docs/static/images/devsecops-dark.png" width="500px;">
-      <source media="(prefers-color-scheme: light)" srcset="docs/static/images/devsecops-light.png" width="500px;">
-      <img alt="DevSecOps Logo" src="docs/static/images/devsecops-dark.png" width="500px;">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/devsecops-dark.png" width="500px;">
+      <source media="(prefers-color-scheme: light)" srcset="assets/devsecops-light.png" width="500px;">
+      <img alt="DevSecOps Logo" src="assets/devsecops-dark.png" width="500px;">
     </picture>
     <p>Roadmap for everyone who wants DevSecOps.</p>
 </div>
