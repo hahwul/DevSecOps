@@ -21,12 +21,14 @@ jobs:
           target: https://github.com/hahwul/DevSecOps
       - name: Create Markdown Table from JSON
         id: create-markdown-table
+        env:
+          DEADLINK_OUTPUT: ${{ steps.broken-link.outputs.output }}
         run: |
           echo "## DeadLink Report" > deadlink_report.md
           echo "" >> deadlink_report.md
           echo "| Target URL | Deadlink   |" >> deadlink_report.md
           echo "|------------|------------|" >> deadlink_report.md
-          echo '${{ steps.broken-link.outputs.output }}' | jq -r 'to_entries[] | .key as $k | .value[] | "| \($k) | \(.) |"' >> deadlink_report.md
+          echo "$DEADLINK_OUTPUT" | jq -r 'to_entries[] | .key as $k | .value[] | "| \($k) | \(.) |"' >> deadlink_report.md
       - name: Read Markdown Table from File
         id: read-markdown-table
         run: |
