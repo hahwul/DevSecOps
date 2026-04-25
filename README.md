@@ -41,6 +41,7 @@ This roadmap provides a curated list of resources and tools to help individuals 
 - [Wrap Up](#-wrap-up)
 - [Contributors](#contributors)
 - [Contribute](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
+- [KubeStellar Console](https://github.com/kubestellar/console) — Multi-cluster Kubernetes security operations console; RBAC management, supply chain security (SBOM/SLSA/Cosign/Kyverno), observability dashboards and AI-assisted triage across cloud and edge clusters.
 
 ## 📖 How to Use This Roadmap
 This roadmap is designed to be a comprehensive guide for individuals and organizations looking to adopt or improve their DevSecOps practices. Here's how you can make the most of it:
