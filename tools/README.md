@@ -37,6 +37,7 @@ Spending a lot of time on applying DevSecOps is searching, comparing, and making
 | Test/PENTEST | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | ![](https://img.shields.io/github/stars/rapid7/metasploit-framework) | ![](https://img.shields.io/github/languages/top/rapid7/metasploit-framework) |
 | Test/PENTEST | [monkey](https://github.com/guardicore/monkey) | Infection Monkey - An automated pentest tool | ![](https://img.shields.io/github/stars/guardicore/monkey) | ![](https://img.shields.io/github/languages/top/guardicore/monkey) |
 | Test/PENTEST | [nuclei](https://github.com/projectdiscovery/nuclei) | Fast and customizable vulnerability scanner based on simple YAML based DSL. | ![](https://img.shields.io/github/stars/projectdiscovery/nuclei) | ![](https://img.shields.io/github/languages/top/projectdiscovery/nuclei) |
+| Test/PENTEST | [Penetrify](https://www.penetrify.cloud/) | Autonomous AI penetration testing platform that exploits and chains vulnerabilities in web applications and APIs, with CI/CD integration. | ![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray) |
 | Test/PENTEST | [ptf](https://github.com/trustedsec/ptf) | The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools. | ![](https://img.shields.io/github/stars/trustedsec/ptf) | ![](https://img.shields.io/github/languages/top/trustedsec/ptf) |
 
 ## How to Contribute this
