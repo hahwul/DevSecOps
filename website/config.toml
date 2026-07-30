@@ -1,0 +1,53 @@
+title = "DevSecOps"
+description = "A comic field guide to DevSecOps. Learn the six phases of the loop in illustrated episodes, then pick your tools."
+base_url = "https://devsecops.hahwul.com"
+default_language = "en"
+
+[languages.en]
+language_name = "English"
+weight = 1
+
+[languages.ko]
+language_name = "한국어"
+weight = 2
+generate_feed = false
+
+[languages.ja]
+language_name = "日本語"
+weight = 3
+generate_feed = false
+
+[plugins]
+processors = ["markdown"]
+
+[content.files]
+allow_extensions = ["jpg", "jpeg", "png", "gif", "svg", "webp"]
+
+[highlight]
+enabled = true
+mode = "server"
+theme = "github"
+use_cdn = true
+copy = true
+
+[sitemap]
+enabled = true
+
+[feeds]
+enabled = false
+
+[search]
+enabled = false
+
+[og]
+type = "website"
+twitter_card = "summary_large_image"
+default_image = "/images/og.png"
+
+[markdown]
+emoji = false
+task_lists = false
+definition_lists = false
+footnotes = false
+mermaid = false
+math = false

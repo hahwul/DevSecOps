@@ -1,0 +1,13 @@
+{# One team member row: portrait + name + intro.
+   Block shortcode. Args: char="char-dev"..., pose, title="Dev" #}
+<div class="team-member">
+  <figure class="scene scene--sm">
+    <svg viewBox="0 0 240 240" fill="none" aria-hidden="true" focusable="false">
+      {% include "partials/svg/char.html" %}
+    </svg>
+  </figure>
+  <div class="team-member-copy">
+    <h3>{{ title | e }}</h3>
+    {{ body | markdownify | safe }}
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{% include "header.html" %}
+  <div class="site-wrapper flow">
+    <main id="main" class="site-main">
+      {% if page.title is present %}<h1>{{ page.title | e }}</h1>{% endif %}
+      {{ content }}
+      <ul class="section-list">
+        {{ section.list }}
+      </ul>
+      {{ pagination }}
+    </main>
+  </div>
+{% include "footer.html" %}

@@ -1,0 +1,5 @@
+{# Alert box. Block shortcode. Args: type="info"|"warning"|"danger"|"tip", title #}
+<div class="alert alert--{{ type | default(value="info") }}">
+  <strong>{% if title %}{{ title | e }}{% else %}{{ type | default(value="info") | upper | e }}{% endif %}</strong>
+  {{ body | markdownify | safe }}
+</div>

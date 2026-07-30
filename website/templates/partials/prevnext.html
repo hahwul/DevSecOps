@@ -1,0 +1,22 @@
+{# Loop navigation between chapters. Wraps around: after Episode 6 the loop
+   continues at Episode 1. Position comes from page.extra.episode. #}
+{% set chapters = load_data(path="data/chapters.yml") %}
+{% set cur = page.extra.episode %}
+<nav class="prevnext">
+  {% for c in chapters %}
+    {% if (cur == 1 and c.episode == 6) or (c.episode == cur - 1) %}
+    <a class="pn-prev" href="{{ base_url }}{{ lang_prefix }}/{{ c.slug }}/">
+      <span class="pn-label">{{ "chapter.prev" | t }}</span>
+      <span class="pn-title">{{ ("nav." ~ c.slug) | t }}</span>
+    </a>
+    {% endif %}
+  {% endfor %}
+  {% for c in chapters %}
+    {% if (cur == 6 and c.episode == 1) or (c.episode == cur + 1) %}
+    <a class="pn-next" href="{{ base_url }}{{ lang_prefix }}/{{ c.slug }}/">
+      <span class="pn-label">{% if cur == 6 %}{{ "chapter.loop_again" | t }}{% else %}{{ "chapter.next" | t }}{% endif %}</span>
+      <span class="pn-title">{{ ("nav." ~ c.slug) | t }}</span>
+    </a>
+    {% endif %}
+  {% endfor %}
+</nav>

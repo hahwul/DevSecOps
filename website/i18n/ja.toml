@@ -1,0 +1,93 @@
+# 日本語UI文字列
+
+[nav]
+home = "ホーム"
+design = "設計"
+develop = "開発"
+build = "ビルド"
+test = "テスト"
+deploy = "デプロイ"
+operate = "運用"
+tools = "ツール"
+about = "概要"
+
+[ui]
+skip = "本文へスキップ"
+theme = "テーマ"
+lang = "言語"
+github = "GitHubリポジトリ"
+
+[footer]
+line = "マンガで学ぶDevSecOpsフィールドガイド。"
+license = "MITライセンス"
+
+[hero]
+start = "エピソード1を読む"
+tools = "ツールを見る"
+
+[home]
+read_episode = "エピソードを読む"
+cta_start = "設計から始める"
+cta_github = "GitHubでスターを付ける"
+
+[chapter]
+episode = "エピソード"
+prev = "前のエピソード"
+next = "次のエピソード"
+loop_again = "ループは続く"
+progress = "全エピソード"
+tools_heading = "このフェーズのツール"
+tools_empty = "このフェーズのツールはまだ登録されていません。ツール一覧をご覧ください。"
+all_tools = "すべてのツールを見る"
+
+[tools]
+filter_all = "すべて"
+open_repo = "リポジトリを開く"
+
+[notfound]
+title = "このコマは見つかりません"
+body = "バグがこのページを食べてしまいました。ストーリーに戻りましょう。"
+back = "ホームに戻る"
+
+[caps]
+secure_sdlc = "セキュアSDLC"
+threat_modeling = "脅威モデリング"
+secure_coding = "セキュアコーディング"
+code_auth = "コード認証"
+repo_access = "リポジトリアクセス制御"
+sast = "SAST"
+sca = "SCA"
+secret_mgmt = "シークレット管理"
+iast = "IAST"
+dast = "DAST"
+pentest = "ペンテスト"
+hardening = "ハードニング"
+config = "設定"
+rasp = "RASP"
+audit = "監査"
+monitor = "監視"
+patch = "パッチ適用"
+
+[chapters.design]
+blurb = "最初のコミットの前に行う脅威モデリングとセキュアSDLC。"
+beat = "悪役は、まだ紙の上にいるうちに見つけよう。"
+
+[chapters.develop]
+blurb = "セキュアコーディングの習慣、コード署名、アクセス制御。"
+beat = "書くなら一度で、安全に。"
+
+[chapters.build]
+blurb = "プッシュのたびにSAST、SCA、シークレットスキャン。"
+beat = "パイプラインが全コミットをチェックしてくれる。"
+
+[chapters.test]
+blurb = "動いているアプリへのDASTとペンテスト。"
+beat = "誰かに攻撃される前に、自分たちで攻撃する。"
+
+[chapters.deploy]
+blurb = "デフォルトからハードニングされたホストと安全な設定。"
+beat = "店を開ける前に、すべてのドアに鍵をかける。"
+
+[chapters.operate]
+blurb = "本番環境でのRASP、監査、監視、パッチ適用。"
+beat = "リリースはゴールじゃない。見張りは続く。"

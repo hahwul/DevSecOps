@@ -1,0 +1,15 @@
+{# Hero group shot: Dev waves, Sec stands center, Ops gives a thumbs up.
+   Standalone <svg>; composes the character <g> partials via include.
+   The .bob animation lives on an inner <g> so its CSS transform never
+   overrides the positioning attribute transform of the outer <g>. #}
+<svg viewBox="0 0 620 250" fill="none" aria-hidden="true" focusable="false">
+  <g transform="translate(6 18) scale(0.86)">
+    <g class="bob">{% set pose = "wave" %}{% include "partials/svg/char-dev.html" %}</g>
+  </g>
+  <g transform="translate(198 6) scale(0.98)">
+    {% set pose = "calm" %}{% include "partials/svg/char-sec.html" %}
+  </g>
+  <g transform="translate(398 18) scale(0.86)">
+    <g class="bob" style="animation-delay: 1.2s">{% set pose = "thumbsup" %}{% include "partials/svg/char-ops.html" %}</g>
+  </g>
+</svg>

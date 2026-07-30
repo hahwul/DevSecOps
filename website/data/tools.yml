@@ -1,0 +1,231 @@
+# Curated DevSecOps tools, transcribed from tools/README.md.
+# phase: design | build | test | operate (only phases present in the source).
+# Descriptions are normalized to about one sentence; _ko/_ja are translations.
+
+# Design / THREAT
+- name: OWASP Threat Dragon
+  phase: design
+  category: THREAT
+  url: https://github.com/mike-goodwin/owasp-threat-dragon-desktop
+  description: "Installable desktop variant of OWASP Threat Dragon for diagram-based threat modeling."
+  description_ko: "다이어그램 기반 위협 모델링을 위한 OWASP Threat Dragon의 데스크톱 버전입니다."
+  description_ja: "図ベースの脅威モデリングを行うOWASP Threat Dragonのデスクトップ版。"
+- name: pytm
+  phase: design
+  category: THREAT
+  url: https://github.com/izar/pytm
+  description: "A Pythonic framework for threat modeling: describe your system in code, get diagrams and threats."
+  description_ko: "파이썬 코드로 시스템을 기술하면 다이어그램과 위협 목록을 만들어 주는 위협 모델링 프레임워크입니다."
+  description_ja: "システムをPythonコードで記述すると、図と脅威リストを生成する脅威モデリングフレームワーク。"
+- name: SeaSponge
+  phase: design
+  category: THREAT
+  url: https://github.com/mozilla/seasponge
+  description: "An accessible browser-based threat modeling tool from Mozilla."
+  description_ko: "Mozilla가 만든 접근성 좋은 브라우저 기반 위협 모델링 도구입니다."
+  description_ja: "Mozilla製のアクセシブルなブラウザベース脅威モデリングツール。"
+- name: Threagile
+  phase: design
+  category: THREAT
+  url: https://github.com/Threagile/threagile
+  description: "Agile threat modeling toolkit: model your architecture in YAML and generate risk reports."
+  description_ko: "아키텍처를 YAML로 모델링하면 리스크 리포트를 생성해 주는 애자일 위협 모델링 툴킷입니다."
+  description_ja: "アーキテクチャをYAMLでモデリングしてリスクレポートを生成するアジャイル脅威モデリングツールキット。"
+
+# Build / SAST
+- name: Gitleaks
+  phase: build
+  category: SAST
+  url: https://github.com/gitleaks/gitleaks
+  description: "Detects hardcoded secrets like API keys, tokens, and passwords in Git repositories."
+  description_ko: "Git 저장소에 하드코딩된 API 키, 토큰, 비밀번호 같은 시크릿을 탐지합니다."
+  description_ja: "GitリポジトリにハードコードされたAPIキーやトークンなどのシークレットを検出。"
+- name: SonarQube
+  phase: build
+  category: SAST
+  url: https://www.sonarqube.org/
+  description: "Continuous code inspection platform that finds bugs, code smells, and vulnerabilities in 20+ languages."
+  description_ko: "20개 이상 언어에서 버그, 코드 스멜, 취약점을 찾아 주는 지속적 코드 검사 플랫폼입니다."
+  description_ja: "20以上の言語でバグ、コードスメル、脆弱性を検出する継続的コード検査プラットフォーム。"
+- name: CodeQL
+  phase: build
+  category: SAST
+  url: https://github.com/github/codeql
+  description: "GitHub's semantic code analysis engine: query your code like data to find vulnerabilities."
+  description_ko: "코드를 데이터처럼 쿼리해 취약점을 찾는 GitHub의 시맨틱 코드 분석 엔진입니다."
+  description_ja: "コードをデータのようにクエリして脆弱性を見つけるGitHubのセマンティックコード分析エンジン。"
+- name: Checkov
+  phase: build
+  category: SAST
+  url: https://github.com/bridgecrewio/checkov
+  description: "Static analysis for infrastructure as code: scans Terraform, CloudFormation, Kubernetes, and more."
+  description_ko: "Terraform, CloudFormation, Kubernetes 등 IaC의 설정 오류를 찾는 정적 분석 도구입니다."
+  description_ja: "TerraformやCloudFormation、KubernetesなどIaCの設定ミスを検出する静的解析ツール。"
+- name: ggshield
+  phase: build
+  category: SAST
+  url: https://github.com/GitGuardian/ggshield
+  description: "GitGuardian CLI that detects 350+ types of hardcoded secrets and 70+ IaC misconfigurations."
+  description_ko: "350여 종의 하드코딩된 시크릿과 70여 종의 IaC 설정 오류를 탐지하는 GitGuardian CLI입니다."
+  description_ja: "350種以上のシークレットと70種以上のIaC設定ミスを検出するGitGuardianのCLI。"
+- name: Semgrep
+  phase: build
+  category: SAST
+  url: https://github.com/returntocorp/semgrep
+  description: "Lightweight static analysis for many languages: find bug variants with patterns that look like source code."
+  description_ko: "소스 코드처럼 생긴 패턴으로 버그 변종을 찾는 가벼운 다국어 정적 분석 도구입니다."
+  description_ja: "ソースコードに似たパターンでバグの亜種を探す軽量な多言語静的解析ツール。"
+- name: sonarcloud-github-action
+  phase: build
+  category: SAST
+  url: https://github.com/SonarSource/sonarcloud-github-action
+  description: "Integrates SonarCloud code analysis into GitHub Actions workflows."
+  description_ko: "SonarCloud 코드 분석을 GitHub Actions 워크플로에 통합합니다."
+  description_ja: "SonarCloudのコード分析をGitHub Actionsのワークフローに統合。"
+
+# Build / SECRET-MANAGE
+- name: Kamus
+  phase: build
+  category: SECRET-MANAGE
+  url: https://github.com/Soluto/kamus
+  description: "Open source, GitOps, zero-trust secret encryption and decryption for Kubernetes applications."
+  description_ko: "쿠버네티스 애플리케이션을 위한 오픈소스 GitOps 제로 트러스트 시크릿 암복호화 솔루션입니다."
+  description_ja: "Kubernetesアプリ向けのオープンソースGitOpsゼロトラストシークレット暗号化ソリューション。"
+- name: secrets-sync-action
+  phase: build
+  category: SECRET-MANAGE
+  url: https://github.com/google/secrets-sync-action
+  description: "A GitHub Action that syncs secrets from one repository to many others."
+  description_ko: "한 저장소의 시크릿을 여러 저장소로 동기화해 주는 GitHub Action입니다."
+  description_ja: "1つのリポジトリのシークレットを複数のリポジトリへ同期するGitHub Action。"
+- name: vault-action
+  phase: build
+  category: SECRET-MANAGE
+  url: https://github.com/hashicorp/vault-action
+  description: "A GitHub Action for using HashiCorp Vault secrets as build variables."
+  description_ko: "HashiCorp Vault의 시크릿을 빌드 변수로 사용하게 해 주는 GitHub Action입니다."
+  description_ja: "HashiCorp Vaultのシークレットをビルド変数として使うためのGitHub Action。"
+
+# Test / DAST
+- name: zaproxy
+  phase: test
+  category: DAST
+  url: https://github.com/zaproxy/zaproxy
+  description: "The ZAP core project: the classic open source DAST scanner and intercepting proxy."
+  description_ko: "대표적인 오픈소스 DAST 스캐너이자 가로채기 프록시인 ZAP의 코어 프로젝트입니다."
+  description_ja: "定番のオープンソースDASTスキャナ兼インターセプトプロキシ、ZAPのコアプロジェクト。"
+- name: action-baseline
+  phase: test
+  category: DAST
+  url: https://github.com/zaproxy/action-baseline
+  description: "A GitHub Action that runs the ZAP baseline scan against your running app."
+  description_ko: "실행 중인 앱에 ZAP 베이스라인 스캔을 돌려 주는 GitHub Action입니다."
+  description_ja: "稼働中のアプリに対してZAPベースラインスキャンを実行するGitHub Action。"
+- name: action-dalfox
+  phase: test
+  category: DAST
+  url: https://github.com/hahwul/action-dalfox
+  description: "XSS scanning with Dalfox on GitHub Actions."
+  description_ko: "GitHub Actions에서 Dalfox로 XSS를 스캔합니다."
+  description_ja: "GitHub Actions上でDalfoxによるXSSスキャンを実行。"
+- name: action-full-scan
+  phase: test
+  category: DAST
+  url: https://github.com/zaproxy/action-full-scan
+  description: "A GitHub Action that runs the full ZAP scan, including active attacks."
+  description_ko: "능동 공격을 포함한 ZAP 풀 스캔을 실행하는 GitHub Action입니다."
+  description_ja: "アクティブ攻撃を含むZAPフルスキャンを実行するGitHub Action。"
+
+# Test / PENTEST
+- name: Faraday
+  phase: test
+  category: PENTEST
+  url: https://github.com/infobyte/faraday
+  description: "Collaborative penetration test and vulnerability management platform."
+  description_ko: "협업형 모의해킹 및 취약점 관리 플랫폼입니다."
+  description_ja: "共同作業型のペネトレーションテストと脆弱性管理のプラットフォーム。"
+- name: Metasploit Framework
+  phase: test
+  category: PENTEST
+  url: https://github.com/rapid7/metasploit-framework
+  description: "The widely used penetration testing and exploitation framework."
+  description_ko: "가장 널리 쓰이는 모의해킹, 익스플로잇 프레임워크입니다."
+  description_ja: "最も広く使われているペネトレーションテストとエクスプロイトのフレームワーク。"
+- name: Infection Monkey
+  phase: test
+  category: PENTEST
+  url: https://github.com/guardicore/monkey
+  description: "An automated pentest tool that safely simulates breach and attack scenarios."
+  description_ko: "침해와 공격 시나리오를 안전하게 시뮬레이션하는 자동화 모의해킹 도구입니다."
+  description_ja: "侵害と攻撃のシナリオを安全にシミュレーションする自動ペンテストツール。"
+- name: Nuclei
+  phase: test
+  category: PENTEST
+  url: https://github.com/projectdiscovery/nuclei
+  description: "Fast and customizable vulnerability scanner based on a simple YAML DSL."
+  description_ko: "간단한 YAML DSL 기반의 빠르고 커스터마이즈 가능한 취약점 스캐너입니다."
+  description_ja: "シンプルなYAML DSLベースの高速でカスタマイズ可能な脆弱性スキャナ。"
+- name: Penetrify
+  phase: test
+  category: PENTEST
+  url: https://www.penetrify.cloud/
+  description: "Autonomous AI penetration testing platform that exploits and chains vulnerabilities, with CI/CD integration."
+  description_ko: "취약점을 익스플로잇하고 연계하는 자율 AI 모의해킹 플랫폼으로, CI/CD 통합을 지원합니다."
+  description_ja: "脆弱性のエクスプロイトと連鎖を行う自律型AIペンテストプラットフォーム。CI/CD統合に対応。"
+- name: PTF
+  phase: test
+  category: PENTEST
+  url: https://github.com/trustedsec/ptf
+  description: "The Penetration Testers Framework: modular support for keeping pentest tools up to date."
+  description_ko: "모의해킹 도구를 모듈식으로 최신 상태로 유지해 주는 Penetration Testers Framework입니다."
+  description_ja: "ペンテストツールをモジュール式に最新へ保つPenetration Testers Framework。"
+
+# Operate / COMPONENT-ANALYSIS
+- name: releaserun
+  phase: operate
+  category: COMPONENT-ANALYSIS
+  url: https://github.com/Releaserun/releaserun-cli
+  description: "Scans dependencies for end-of-life runtimes, known CVEs, and version health across 300+ technologies."
+  description_ko: "300개 이상의 기술에서 지원 종료 런타임, 알려진 CVE, 버전 상태를 스캔합니다."
+  description_ja: "300以上の技術を対象にEOLランタイム、既知のCVE、バージョン健全性をスキャン。"
+- name: Dependency-Track
+  phase: operate
+  category: COMPONENT-ANALYSIS
+  url: https://github.com/DependencyTrack/dependency-track
+  description: "Intelligent component analysis platform for reducing software supply chain risk."
+  description_ko: "소프트웨어 공급망 위험을 식별하고 줄여 주는 지능형 컴포넌트 분석 플랫폼입니다."
+  description_ja: "ソフトウェアサプライチェーンのリスクを減らすインテリジェントなコンポーネント分析プラットフォーム。"
+
+# Operate / K8S
+- name: kube-hunter
+  phase: operate
+  category: K8S
+  url: https://github.com/aquasecurity/kube-hunter
+  description: "Hunts for security weaknesses in Kubernetes clusters."
+  description_ko: "쿠버네티스 클러스터의 보안 약점을 사냥하듯 찾아냅니다."
+  description_ja: "Kubernetesクラスタのセキュリティ上の弱点をハンティング。"
+- name: KubeStellar Console
+  phase: operate
+  category: K8S
+  url: https://github.com/kubestellar/console
+  description: "Multi-cluster Kubernetes dashboard with supply chain security, policy dashboards, and AI-assisted triage."
+  description_ko: "공급망 보안, 정책 대시보드, AI 트리아지를 갖춘 멀티 클러스터 쿠버네티스 대시보드입니다."
+  description_ja: "サプライチェーンセキュリティやポリシーダッシュボード、AIトリアージを備えたマルチクラスタKubernetesダッシュボード。"
+
+# Operate / SECURITY-AUDIT
+- name: Prowler
+  phase: operate
+  category: SECURITY-AUDIT
+  url: https://github.com/prowler-cloud/prowler
+  description: "Cloud security auditing with 100+ checks for standards like CIS, GDPR, and HIPAA."
+  description_ko: "CIS, GDPR, HIPAA 같은 표준에 대한 100개 이상의 점검을 제공하는 클라우드 보안 감사 도구입니다."
+  description_ja: "CISやGDPR、HIPAAなどの標準に対する100以上のチェックを備えたクラウドセキュリティ監査ツール。"
+
+# Operate / SECURITY-SCAN
+- name: Trivy
+  phase: operate
+  category: SECURITY-SCAN
+  url: https://github.com/aquasecurity/trivy
+  description: "All-in-one security scanner for container images, file systems, and Git repositories."
+  description_ko: "컨테이너 이미지, 파일 시스템, Git 저장소를 아우르는 올인원 보안 스캐너입니다."
+  description_ja: "コンテナイメージ、ファイルシステム、Gitリポジトリを対象とするオールインワンのセキュリティスキャナ。"

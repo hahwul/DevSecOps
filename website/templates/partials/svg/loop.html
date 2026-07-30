@@ -1,0 +1,17 @@
+{# The DevSecOps infinity loop. The path is SVG (draws itself on reveal);
+   the six phase nodes are HTML links so labels stay translatable and focusable.
+   Wrapped by the loop_diagram shortcode, which passes the caption. #}
+<div class="loop-wrap reveal">
+  <svg viewBox="0 0 800 340" fill="none" aria-hidden="true" focusable="false">
+    <path class="loop-draw" pathLength="1"
+      d="M400 170C340 62 62 62 62 170S340 278 400 170C460 62 738 62 738 170S460 278 400 170Z"
+      stroke="var(--line)" stroke-width="5" stroke-linecap="round"/>
+  </svg>
+  <a class="loop-node" style="left:17.5%;top:22%" href="{{ base_url }}{{ lang_prefix }}/design/"><span class="n">1</span>{{ "nav.design" | t }}</a>
+  <a class="loop-node" style="left:8%;top:50%" href="{{ base_url }}{{ lang_prefix }}/develop/"><span class="n">2</span>{{ "nav.develop" | t }}</a>
+  <a class="loop-node" style="left:23.5%;top:78%" href="{{ base_url }}{{ lang_prefix }}/build/"><span class="n">3</span>{{ "nav.build" | t }}</a>
+  <a class="loop-node" style="left:50%;top:50%" href="{{ base_url }}{{ lang_prefix }}/test/"><span class="n">4</span>{{ "nav.test" | t }}</a>
+  <a class="loop-node" style="left:76.5%;top:22%" href="{{ base_url }}{{ lang_prefix }}/deploy/"><span class="n">5</span>{{ "nav.deploy" | t }}</a>
+  <a class="loop-node" style="left:76.5%;top:78%" href="{{ base_url }}{{ lang_prefix }}/operate/"><span class="n">6</span>{{ "nav.operate" | t }}</a>
+</div>
+{% if caption %}<p class="loop-caption">{{ caption | e }}</p>{% endif %}

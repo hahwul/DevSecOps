@@ -1,0 +1,103 @@
+{# Dev: apricot chibi with fluffy hair, round glasses, white hoodie, sneakers.
+   Coordinate space 240x240 (wrapper supplies the <svg>). Poses: calm | wave | typing | worried.
+   Rules: strokes var(--ink), round caps; fills from --c-* / --paper tokens plus
+   the shared shading tokens (--c-*-sh/-hi, --shade, --ground); no <text>. #}
+{% set p = pose | default(value="calm") %}
+<g class="char char-dev" stroke-linecap="round" stroke-linejoin="round">
+  {# Ground shadow #}
+  <ellipse cx="120" cy="226" rx="50" ry="7.5" fill="var(--ground)"/>
+  {# Back arms (behind body) #}
+  {% if p == "wave" %}
+  <path d="M160 152q28-8 36-34" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  <path d="M78 156q-13 11-11 27" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% elif p == "typing" %}
+  <path d="M82 156q6 17 20 21M158 156q-6 17-20 21" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% elif p == "worried" %}
+  <path d="M82 150q-9-25 11-35M158 150q9-25-11-35" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% else %}
+  <path d="M80 154q-12 12-10 28M160 154q12 12 10 28" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% endif %}
+  {# Legs + sneakers #}
+  <path d="M104 200v13M136 200v13" stroke="var(--ink)" stroke-width="8"/>
+  <path d="M93 220q0-8 9-8h5q7 0 7 8v1H93zM126 220q0-8 9-8h5q7 0 7 8v1h-21z" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M93 217h21M126 217h21" stroke="var(--ink)" stroke-width="2.6" opacity="0.5"/>
+  {# Hoodie body #}
+  <path d="M92 138h56q10 0 11 10l3 40q1 16-15 16H99q-16 0-15-16l3-40q1-10 5-10z" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="5"/>
+  {# Cloth shading, right side #}
+  <path d="M156 148l3 40q1 14-13 14h-8q10-4 10-16l-2-38z" fill="var(--shade)"/>
+  {# Kangaroo pocket #}
+  <path d="M104 182h32v7q0 7-7 7h-18q-7 0-7-7z" fill="var(--paper-tint)" stroke="var(--ink)" stroke-width="3.5"/>
+  {# Hood collar + drawstrings #}
+  <path d="M94 143q26 15 52 0" stroke="var(--ink)" stroke-width="4" fill="none"/>
+  <path d="M112 152v11M128 152v11" stroke="var(--ink)" stroke-width="3.2"/>
+  <circle cx="112" cy="165" r="2.4" fill="var(--ink)"/>
+  <circle cx="128" cy="165" r="2.4" fill="var(--ink)"/>
+  {# Ears #}
+  <circle cx="50" cy="98" r="9" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="4.5"/>
+  <circle cx="190" cy="98" r="9" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="4.5"/>
+  {# Head #}
+  <path d="M52 86q0-58 68-58t68 58q0 54-68 54T52 86z" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="5"/>
+  {# Head shading along the jaw #}
+  <path d="M186 92q-3 40-66 44 40-12 54-26 9-9 12-18z" fill="var(--shade)"/>
+  {# Hair cap with a tidy scalloped fringe #}
+  <path d="M56 78C58 40 84 30 120 30s62 10 64 48c-8-14-18-16-26-14 2-12-12-16-20-11-6-9-20-9-26-2-10-6-20-1-22 8-10-3-16 3-18 10-6 3-12 6-16 9z" fill="var(--c-dev-sh)" stroke="var(--ink)" stroke-width="4.5"/>
+  {# Hair sheen #}
+  <path d="M80 48q13-10 30-12" stroke="var(--c-dev-hi)" stroke-width="5" fill="none" opacity="0.9"/>
+  {# Brows #}
+  {% if p == "worried" %}
+  <path d="M79 66l20 7M161 66l-20 7" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  {% else %}
+  <path d="M80 68q9-5 19-4M141 64q10-1 19 5" stroke="var(--ink)" stroke-width="4" fill="none"/>
+  {% endif %}
+  {# Glasses #}
+  <circle cx="92" cy="93" r="20" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4.5"/>
+  <circle cx="148" cy="93" r="20" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4.5"/>
+  <path d="M112 91h16M72 89l-15-4M168 89l15-4" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  <path d="M80 84q3-6 10-8M136 84q3-6 10-8" stroke="var(--ink-faint)" stroke-width="2.6" fill="none" opacity="0.7"/>
+  {# Eyes #}
+  {% if p == "worried" %}
+  <ellipse cx="92" cy="95" rx="4.2" ry="6.2" fill="var(--ink)"/>
+  <ellipse cx="148" cy="95" rx="4.2" ry="6.2" fill="var(--ink)"/>
+  <circle cx="90.6" cy="92.6" r="1.7" fill="var(--paper-raised)"/>
+  <circle cx="146.6" cy="92.6" r="1.7" fill="var(--paper-raised)"/>
+  {% else %}
+  <circle cx="92" cy="93" r="5" fill="var(--ink)"/>
+  <circle cx="148" cy="93" r="5" fill="var(--ink)"/>
+  <circle cx="90.4" cy="91.2" r="1.8" fill="var(--paper-raised)"/>
+  <circle cx="146.4" cy="91.2" r="1.8" fill="var(--paper-raised)"/>
+  {% endif %}
+  {# Mouth #}
+  {% if p == "worried" %}
+  <path d="M112 120q4-6 8-1t8 1" stroke="var(--ink)" stroke-width="4" fill="none"/>
+  {% elif p == "typing" %}
+  <path d="M110 116q10 9 20 0" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  {% else %}
+  <path d="M107 114q13 12 26 0-2 13-13 13t-13-13z" fill="var(--ink)"/>
+  <ellipse cx="120" cy="123" rx="5.5" ry="3" fill="var(--c-blush)"/>
+  {% endif %}
+  {# Blush #}
+  {% if p != "worried" %}
+  <ellipse cx="70" cy="112" rx="9" ry="5.5" fill="var(--c-blush)" opacity="0.85"/>
+  <ellipse cx="170" cy="112" rx="9" ry="5.5" fill="var(--c-blush)" opacity="0.85"/>
+  {% endif %}
+  {# Front hands + props per pose #}
+  {% if p == "wave" %}
+  <circle cx="198" cy="112" r="8.5" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="204" cy="105" r="4" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="3.2"/>
+  <circle cx="66" cy="185" r="7.5" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M210 84q6 2 4 9M218 92q4 3 1 8" stroke="var(--ink-faint)" stroke-width="3" fill="none" opacity="0.8"/>
+  {% elif p == "typing" %}
+  <path d="M94 178l8-24h36l8 24z" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M104 162h32M101 169h38" stroke="var(--ink-faint)" stroke-width="2.4" opacity="0.6"/>
+  <rect x="88" y="178" width="64" height="13" rx="6" fill="var(--c-ops)" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="104" cy="176" r="6.5" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="3.6"/>
+  <circle cx="136" cy="176" r="6.5" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="3.6"/>
+  {% elif p == "worried" %}
+  <circle cx="94" cy="112" r="8" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="146" cy="112" r="8" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M56 58q-7-8-3-16M64 50q-2-9 4-14" stroke="var(--ink-faint)" stroke-width="3" fill="none" opacity="0.8"/>
+  {% else %}
+  <circle cx="69" cy="185" r="7.5" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="171" cy="185" r="7.5" fill="var(--c-dev)" stroke="var(--ink)" stroke-width="4"/>
+  {% endif %}
+</g>

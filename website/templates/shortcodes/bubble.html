@@ -1,0 +1,6 @@
+{# Speech bubble: real HTML text, translatable per language file.
+   Block shortcode. Args: who="dev"|"sec"|"ops"|"bug", dir="right",
+   kind="thought"|"shout", name="Speaker" (screen-reader attribution) #}
+<div class="bubble{% if who %} bubble--{{ who }}{% endif %}{% if dir == "right" %} bubble--right{% endif %}{% if kind %} bubble--{{ kind }}{% endif %}">
+{% if name %}<span class="sr-only">{{ name | e }}: </span>{% endif %}{{ body | markdownify | safe }}
+</div>

@@ -1,0 +1,60 @@
+{# The Bug: small clay ladybeetle villain with curly antennae, jointed legs,
+   spotted wing cases. Coordinate space 240x240. Poses: sneak | caught | flag.
+   Rules: strokes var(--ink), round caps; token fills + shading tokens; no <text>. #}
+{% set p = pose | default(value="sneak") %}
+<g class="char char-bug" stroke-linecap="round" stroke-linejoin="round">
+  {# Ground shadow #}
+  <ellipse cx="120" cy="216" rx="58" ry="7.5" fill="var(--ground)"/>
+  {# Antennae #}
+  <path d="M104 54q-8-22-26-26M136 54q8-22 26-26" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  <circle cx="75" cy="26" r="5" fill="var(--c-bug)" stroke="var(--ink)" stroke-width="3.5"/>
+  <circle cx="165" cy="26" r="5" fill="var(--c-bug)" stroke="var(--ink)" stroke-width="3.5"/>
+  {# Jointed legs, three per side #}
+  <path d="M64 124L46 114l-8-12M58 150H38l-9 9M70 176l-16 10-6 14" stroke="var(--ink)" stroke-width="6" fill="none"/>
+  <path d="M176 124l18-10 8-12M182 150h20l9 9M170 176l16 10 6 14" stroke="var(--ink)" stroke-width="6" fill="none"/>
+  {# Body #}
+  <ellipse cx="120" cy="150" rx="64" ry="54" fill="var(--c-bug)" stroke="var(--ink)" stroke-width="5"/>
+  {# Wing case split + shading + sheen #}
+  <path d="M120 98v104" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M182 136q6 38-28 60 22-24 20-58 0-14-4-24 9 8 12 22z" fill="var(--shade)"/>
+  <path d="M72 128q6-18 22-24-12 12-14 28-6 0-8-4z" fill="var(--c-bug-hi)" opacity="0.9"/>
+  {# Spots #}
+  <circle cx="94" cy="134" r="6.5" fill="var(--c-bug-sh)"/>
+  <circle cx="146" cy="128" r="5" fill="var(--c-bug-sh)"/>
+  <circle cx="86" cy="166" r="4.5" fill="var(--c-bug-sh)"/>
+  <circle cx="152" cy="168" r="6" fill="var(--c-bug-sh)"/>
+  <circle cx="132" cy="188" r="3.6" fill="var(--c-bug-sh)"/>
+  {# Head #}
+  <circle cx="120" cy="74" r="30" fill="var(--c-bug)" stroke="var(--ink)" stroke-width="5"/>
+  <path d="M98 58q8-9 20-10-10 6-13 16-5-2-7-6z" fill="var(--c-bug-hi)" opacity="0.9"/>
+  {# Face #}
+  {% if p == "caught" %}
+  <circle cx="107" cy="72" r="8" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="3.5"/>
+  <circle cx="133" cy="72" r="8" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="3.5"/>
+  <circle cx="108.5" cy="73" r="3" fill="var(--ink)"/>
+  <circle cx="131.5" cy="73" r="3" fill="var(--ink)"/>
+  <ellipse cx="120" cy="92" rx="5.5" ry="6.5" fill="var(--ink)"/>
+  <path d="M88 52q-6-5-5-12M152 52q6-5 5-12" stroke="var(--ink-faint)" stroke-width="3" fill="none" opacity="0.8"/>
+  {% elif p == "flag" %}
+  <circle cx="109" cy="74" r="4" fill="var(--ink)"/>
+  <circle cx="131" cy="74" r="4" fill="var(--ink)"/>
+  <circle cx="107.8" cy="72.6" r="1.5" fill="var(--paper-raised)"/>
+  <circle cx="129.8" cy="72.6" r="1.5" fill="var(--paper-raised)"/>
+  <path d="M112 89h16" stroke="var(--ink)" stroke-width="4" fill="none"/>
+  {% else %}
+  <path d="M100 64h15M125 64h15" stroke="var(--ink)" stroke-width="3.5" fill="none"/>
+  <circle cx="110" cy="72" r="4" fill="var(--ink)"/>
+  <circle cx="130" cy="72" r="4" fill="var(--ink)"/>
+  <circle cx="108.8" cy="70.6" r="1.5" fill="var(--paper-raised)"/>
+  <circle cx="128.8" cy="70.6" r="1.5" fill="var(--paper-raised)"/>
+  <path d="M108 86q10 8 22 0" stroke="var(--ink)" stroke-width="4" fill="none"/>
+  <path d="M124 89l3 5 4-6" stroke="var(--ink)" stroke-width="3" fill="none"/>
+  {% endif %}
+  {# White flag #}
+  {% if p == "flag" %}
+  <path d="M192 52v100" stroke="var(--ink)" stroke-width="5"/>
+  <path d="M192 54q14 8 24 4t22-8q-4 18-2 34-12 6-22 7t-22-3z" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4.5"/>
+  <path d="M204 62q0 14 2 26" stroke="var(--ink-faint)" stroke-width="2.6" fill="none" opacity="0.6"/>
+  <path d="M178 136l14 10" stroke="var(--ink)" stroke-width="6"/>
+  {% endif %}
+</g>
