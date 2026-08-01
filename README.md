@@ -105,6 +105,7 @@ This list is designed to help you quickly find and compare tools, reducing the t
   - DAST(Dynamic Application Security Testing)
     1. [Dynamic Application Security Testing with ZAP and GitHub Actions](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/) 
     2. [Dynamic Application Security Testing (DAST) in Gitlab](https://docs.gitlab.com/ee/user/application_security/dast/)
+* [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) - Self-hosted autonomous pentest platform that plugs into the pipeline (post-build) to run DAST across web/API/AD/Kubernetes and export CVSS/CVE/MITRE findings.
     3. [DAST using projectdiscovery Nuclei (github action)](https://github.com/secopslab/nuclei-action)
     4. [ZAPCon 2021-Democratizing ZAP with test automation and domain specific languages](https://youtu.be/jimW-R6_F4U)
     5. [DAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/TEST-002-Dynamic-Application-Security-Testing-DAST.md)
