@@ -1,0 +1,7 @@
+{# Character dispatch: set `char` (and optionally `pose`) before including.
+   Emits the character <g>; the caller supplies the <svg> wrapper. #}
+{% if char == "char-sec" %}{% include "partials/svg/char-sec.html" %}
+{% elif char == "char-ops" %}{% include "partials/svg/char-ops.html" %}
+{% elif char == "char-bug" %}{% include "partials/svg/char-bug.html" %}
+{% else %}{% include "partials/svg/char-dev.html" %}
+{% endif %}

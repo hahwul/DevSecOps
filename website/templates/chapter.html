@@ -1,0 +1,51 @@
+{% include "header.html" %}
+  <div class="site-wrapper">
+    <main id="main" class="site-main">
+      <header class="chapter-head">
+        <div class="chapter-head-top">
+          <span class="ep-mark">{{ "chapter.episode" | t }}<span class="ep-num">{{ page.extra.episode }}</span></span>
+          <nav aria-label="{{ "chapter.progress" | t }}">
+            <ol class="chapter-progress">
+              {% set chapters = load_data(path="data/chapters.yml") %}
+              {% for c in chapters %}
+              <li><a href="{{ base_url }}{{ lang_prefix }}/{{ c.slug }}/"{% if c.slug == page.extra.phase %} aria-current="page"{% endif %}><span class="sr-only">{{ ("nav." ~ c.slug) | t }}</span></a></li>
+              {% endfor %}
+            </ol>
+          </nav>
+        </div>
+        <div class="chapter-title">
+          <span class="chapter-icon">{% set icon = page.extra.phase %}{% include "partials/svg/icon.html" %}</span>
+          <h1>{{ page.title | e }}</h1>
+        </div>
+        <p class="chapter-hook">{{ page.extra.hook | e }}</p>
+      </header>
+      <div class="chapter-body flow">
+        {{ content }}
+      </div>
+      <section class="chapter-tools">
+        <h2>{{ "chapter.tools_heading" | t }}</h2>
+        {% if page.extra.has_tools %}
+        <ul class="tools-grid">
+          {% set tools = load_data(path="data/tools.yml") %}
+          {% for tool in tools %}{% if tool.phase == page.extra.phase %}
+          <li class="tool-card">
+            <div class="tool-card-head">
+              <a href="{{ tool.url }}" rel="noopener">{{ tool.name | e }}</a>
+              <span class="tool-cat">{{ tool.category | e }}</span>
+            </div>
+            <p>{% if page.language == "ko" and tool.description_ko %}{{ tool.description_ko | e }}{% elif page.language == "ja" and tool.description_ja %}{{ tool.description_ja | e }}{% else %}{{ tool.description | e }}{% endif %}</p>
+          </li>
+          {% endif %}{% endfor %}
+        </ul>
+        <p><a href="{{ base_url }}{{ lang_prefix }}/tools/">{{ "chapter.all_tools" | t }} &rarr;</a></p>
+        {% else %}
+        <div class="tools-empty">
+          <p>{{ "chapter.tools_empty" | t }}</p>
+          <p><a href="{{ base_url }}{{ lang_prefix }}/tools/">{{ "chapter.all_tools" | t }} &rarr;</a></p>
+        </div>
+        {% endif %}
+      </section>
+      {% include "partials/prevnext.html" %}
+    </main>
+  </div>
+{% include "footer.html" %}

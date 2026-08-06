@@ -1,0 +1,94 @@
+# UI strings for the default language (English).
+# Nested tables flatten to dot keys: {{ "nav.tools" | t }}
+
+[nav]
+home = "Home"
+design = "Design"
+develop = "Develop"
+build = "Build"
+test = "Test"
+deploy = "Deploy"
+operate = "Operate"
+tools = "Tools"
+about = "About"
+
+[ui]
+skip = "Skip to content"
+theme = "Theme"
+lang = "Language"
+github = "GitHub repository"
+
+[footer]
+line = "A comic field guide to DevSecOps."
+license = "MIT licensed"
+
+[hero]
+start = "Start Episode 1"
+tools = "Meet the tools"
+
+[home]
+read_episode = "Read episode"
+cta_start = "Start with Design"
+cta_github = "Star on GitHub"
+
+[chapter]
+episode = "Episode"
+prev = "Previous episode"
+next = "Next episode"
+loop_again = "The loop continues"
+progress = "All episodes"
+tools_heading = "Tools for this phase"
+tools_empty = "No curated tools for this phase yet. Browse the full arsenal instead."
+all_tools = "See all tools"
+
+[tools]
+filter_all = "All"
+open_repo = "Open repository"
+
+[notfound]
+title = "This panel is missing"
+body = "The Bug ate this page. Head back to the story."
+back = "Back to home"
+
+[caps]
+secure_sdlc = "Secure SDLC"
+threat_modeling = "Threat Modeling"
+secure_coding = "Secure Coding"
+code_auth = "Code Authentication"
+repo_access = "Repository Access Control"
+sast = "SAST"
+sca = "SCA"
+secret_mgmt = "Secret Management"
+iast = "IAST"
+dast = "DAST"
+pentest = "Pentest"
+hardening = "Hardening"
+config = "Configuration"
+rasp = "RASP"
+audit = "Audit"
+monitor = "Monitoring"
+patch = "Patching"
+
+[chapters.design]
+blurb = "Threat modeling and a secure SDLC, before the first commit."
+beat = "Find the villain while it is still on paper."
+
+[chapters.develop]
+blurb = "Secure coding habits, signed code, controlled access."
+beat = "Write it once, write it safe."
+
+[chapters.build]
+blurb = "SAST, SCA, and secret scanning on every push."
+beat = "The pipeline checks every commit, so we do not have to."
+
+[chapters.test]
+blurb = "DAST and pentesting against the running app."
+beat = "Attack it ourselves, before anyone else does."
+
+[chapters.deploy]
+blurb = "Hardened hosts and safe configuration by default."
+beat = "Lock every door before opening the shop."
+
+[chapters.operate]
+blurb = "RASP, audits, monitoring, and patching in production."
+beat = "Shipping is not the finish line. We keep watch."

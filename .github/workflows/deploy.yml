@@ -1,0 +1,20 @@
+---
+name: Deploy website
+on:
+  push:
+    branches: [main]
+    paths: [website/**]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hahwul/hwaro@main
+        with:
+          build_dir: website
+          token: ${{ secrets.GITHUB_TOKEN }}

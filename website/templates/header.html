@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page_language }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default(site.description, true) | e }}">
+  <title>{% if page.title is present %}{{ page.title | e }} - {% endif %}{{ site.title | e }}</title>
+  <link rel="icon" type="image/svg+xml" href="{{ base_url }}/favicon.svg">
+  <script>(function(){try{var t=localStorage.getItem("hwaro-theme");if(t==="light"||t==="dark"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}document.documentElement.classList.add("js")})()</script>
+  {{ og_all_tags }}
+  {{ canonical_tag }}
+  {{ jsonld }}
+  {{ hreflang_tags }}
+  {{ pagination_seo_links }}
+  <style>:root{color-scheme:light dark;background:light-dark(#fbfaf7,#14181d)}:root[data-theme="light"]{color-scheme:light}:root[data-theme="dark"]{color-scheme:dark}</style>
+  <link rel="stylesheet" href="{{ base_url }}/css/site.css">
+  {{ math_tags }}
+  {{ mermaid_tags }}
+  {{ auto_includes_css }}
+</head>
+<body data-section="{{ page.section }}">
+  <a class="skip-link" href="#main">{{ "ui.skip" | t }}</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a href="{{ base_url }}{{ lang_prefix }}/" class="site-logo">{% include "partials/svg/logo-mark.html" %}<span>{{ site.title | e }}</span></a>
+      <div class="site-header-right">
+        <nav class="site-nav">
+          <a href="{{ base_url }}{{ lang_prefix }}/tools/"{% if "/tools/" | active_path %} aria-current="page"{% endif %}>{{ "nav.tools" | t }}</a>
+          <a href="{{ base_url }}{{ lang_prefix }}/about/"{% if "/about/" | active_path %} aria-current="page"{% endif %}>{{ "nav.about" | t }}</a>
+          <a href="https://github.com/hahwul/DevSecOps" rel="noopener">GitHub</a>
+        </nav>
+        {% include "partials/lang-switcher.html" %}
+        <button class="theme-toggle" type="button" data-mode="auto" aria-label="{{ "ui.theme" | t }}: auto" title="{{ "ui.theme" | t }}">
+          <svg class="tt-auto" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.75a6.25 6.25 0 0 1 0 12.5z" fill="currentColor"/></svg>
+          <svg class="tt-light" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 .9v2M8 13.1v2M.9 8h2M13.1 8h2M2.98 2.98l1.42 1.42M11.6 11.6l1.42 1.42M13.02 2.98L11.6 4.4M4.4 11.6l-1.42 1.42" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <svg class="tt-dark" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.4 9.9A5.8 5.8 0 0 1 6.1 2.6a5.8 5.8 0 1 0 7.3 7.3z" fill="currentColor"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>

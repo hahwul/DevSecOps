@@ -1,0 +1,55 @@
+{# Sec: mint shield-bodied guardian, calm and sharp-eyed, double-rim shield
+   with a verified badge. Coordinate space 240x240. Poses: calm | point | happy.
+   Rules: strokes var(--ink), round caps; token fills + shading tokens; no <text>. #}
+{% set p = pose | default(value="calm") %}
+<g class="char char-sec" stroke-linecap="round" stroke-linejoin="round">
+  {# Ground shadow #}
+  <ellipse cx="120" cy="218" rx="46" ry="7" fill="var(--ground)"/>
+  {# Back arms #}
+  {% if p == "point" %}
+  <path d="M64 122q-13 14-9 31" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% elif p == "happy" %}
+  <path d="M66 100q-17-20-7-39M174 100q17-20 7-39" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% else %}
+  <path d="M64 120q-13 14-9 31M176 120q13 14 9 31" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% endif %}
+  {# Shield body #}
+  <path d="M60 58q60-17 120 0v60q0 55-60 92-60-37-60-92z" fill="var(--c-sec)" stroke="var(--ink)" stroke-width="5"/>
+  {# Right-side shading #}
+  <path d="M180 60v58q0 52-54 88 40-38 44-86 3-34 2-58z" fill="var(--shade)"/>
+  {# Top-left sheen #}
+  <path d="M70 64q16-8 36-10-18 8-26 22-8-2-10-12z" fill="var(--c-sec-hi)" opacity="0.9"/>
+  {# Inner rim #}
+  <path d="M73 68q47-12 94 0v50q0 44-47 76-47-32-47-76z" fill="none" stroke="var(--c-sec-sh)" stroke-width="3"/>
+  {# Face #}
+  {% if p == "happy" %}
+  <path d="M88 103q9-12 18 0M134 103q9-12 18 0" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  {% else %}
+  <path d="M88 89l18 3M134 92l18-3" stroke="var(--ink)" stroke-width="4" fill="none"/>
+  <circle cx="98" cy="103" r="5" fill="var(--ink)"/>
+  <circle cx="142" cy="103" r="5" fill="var(--ink)"/>
+  <circle cx="96.4" cy="101.2" r="1.8" fill="var(--paper-raised)"/>
+  <circle cx="140.4" cy="101.2" r="1.8" fill="var(--paper-raised)"/>
+  {% endif %}
+  <path d="M112 126q8 7 16 0" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  <ellipse cx="82" cy="118" rx="8" ry="5" fill="var(--c-blush)" opacity="0.85"/>
+  <ellipse cx="158" cy="118" rx="8" ry="5" fill="var(--c-blush)" opacity="0.85"/>
+  {# Verified badge #}
+  <circle cx="120" cy="172" r="13" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M113 172l5.5 6.5 10-12" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  {# Front hands + props #}
+  {% if p == "point" %}
+  <path d="M160 116q36 0 60-22" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  <circle cx="222" cy="92" r="8.5" fill="var(--c-sec)" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="229" cy="86" r="4" fill="var(--c-sec)" stroke="var(--ink)" stroke-width="3.2"/>
+  <circle cx="55" cy="154" r="7.5" fill="var(--c-sec)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M232 70q6 1 5 8M222 64q5-1 7 5" stroke="var(--ink-faint)" stroke-width="3" fill="none" opacity="0.8"/>
+  {% elif p == "happy" %}
+  <circle cx="57" cy="58" r="8" fill="var(--c-sec)" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="183" cy="58" r="8" fill="var(--c-sec)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M46 44q-4-7 1-12M194 44q4-7-1-12" stroke="var(--ink-faint)" stroke-width="3" fill="none" opacity="0.8"/>
+  {% else %}
+  <circle cx="54" cy="153" r="7.5" fill="var(--c-sec)" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="186" cy="153" r="7.5" fill="var(--c-sec)" stroke="var(--ink)" stroke-width="4"/>
+  {% endif %}
+</g>

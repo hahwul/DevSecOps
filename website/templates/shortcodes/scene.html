@@ -1,0 +1,65 @@
+{# Embeds a character scene from the inline SVG library.
+   Inline shortcode. Args:
+     name="char-dev"|"char-sec"|"char-ops"|"char-bug"|"trio"
+     pose  (see each character partial)
+     alt   "described action" (screen-reader text)
+     size  "lg"|"sm"
+     bg    "board"|"window"|"gears"|"radar"  (muted backdrop; character scales down)
+   Backdrops use only faint tokens so the character stays the focus. #}
+{% set n = name | default(value="char-dev") %}
+<figure class="scene{% if n == "trio" %} scene--wide{% endif %}{% if size %} scene--{{ size }}{% endif %}">
+  {% if n == "trio" %}
+  {% include "partials/svg/trio.html" %}
+  {% else %}
+  <svg viewBox="0 0 240 240" fill="none" aria-hidden="true" focusable="false">
+    {% if bg == "board" %}
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <rect x="26" y="18" width="188" height="118" rx="10" fill="var(--paper-raised)" stroke="var(--line-soft)" stroke-width="4"/>
+      <path d="M52 142h136" stroke="var(--line-soft)" stroke-width="5"/>
+      <rect x="48" y="42" width="44" height="26" rx="6" fill="var(--paper-tint)" stroke="var(--ink-faint)" stroke-width="3"/>
+      <rect x="122" y="38" width="50" height="28" rx="6" fill="var(--paper-tint)" stroke="var(--ink-faint)" stroke-width="3"/>
+      <rect x="86" y="92" width="48" height="26" rx="6" fill="var(--paper-tint)" stroke="var(--ink-faint)" stroke-width="3"/>
+      <path d="M92 62l24 30M146 66l-26 26" stroke="var(--ink-faint)" stroke-width="3"/>
+      <path d="M154 96l14 14M168 96l-14 14" stroke="var(--warm)" stroke-width="3.5"/>
+    </g>
+    {% elif bg == "window" %}
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <rect x="30" y="20" width="180" height="112" rx="10" fill="var(--paper-raised)" stroke="var(--line-soft)" stroke-width="4"/>
+      <path d="M30 44h180" stroke="var(--line-soft)" stroke-width="3"/>
+      <circle cx="44" cy="32" r="3" fill="var(--ink-faint)"/>
+      <circle cx="56" cy="32" r="3" fill="var(--ink-faint)"/>
+      <circle cx="68" cy="32" r="3" fill="var(--ink-faint)"/>
+      <rect x="46" y="58" width="74" height="8" rx="4" fill="var(--line-soft)"/>
+      <rect x="58" y="76" width="102" height="8" rx="4" fill="var(--line-soft)"/>
+      <rect x="58" y="94" width="64" height="8" rx="4" fill="var(--accent-tint)" stroke="var(--accent)" stroke-width="2"/>
+      <rect x="46" y="112" width="52" height="8" rx="4" fill="var(--line-soft)"/>
+    </g>
+    {% elif bg == "gears" %}
+    <g stroke="var(--ink-faint)" stroke-linecap="round" opacity="0.75">
+      <path d="M186 30v-12M186 82v12M160 56h-12M212 56h12M168 38l-9-9M204 74l9 9M204 38l9-9M168 74l-9 9" stroke-width="4.5"/>
+      <circle cx="186" cy="56" r="23" fill="var(--paper-tint)" stroke-width="3.5"/>
+      <circle cx="186" cy="56" r="8" fill="none" stroke-width="3.5"/>
+      <path d="M52 78v-9M52 117v9M33 98h-9M71 98h9M39 85l-7-7M65 111l7 7M65 85l7-7M39 111l-7 7" stroke-width="4"/>
+      <circle cx="52" cy="98" r="16" fill="var(--paper-tint)" stroke-width="3.5"/>
+      <circle cx="52" cy="98" r="5.5" fill="none" stroke-width="3.5"/>
+    </g>
+    {% elif bg == "radar" %}
+    <g stroke-linecap="round" opacity="0.85">
+      <circle cx="178" cy="62" r="18" stroke="var(--ink-faint)" stroke-width="3" stroke-dasharray="3 5"/>
+      <circle cx="178" cy="62" r="34" stroke="var(--ink-faint)" stroke-width="3" stroke-dasharray="3 5"/>
+      <circle cx="178" cy="62" r="50" stroke="var(--line-soft)" stroke-width="3" stroke-dasharray="3 5"/>
+      <path d="M178 62L212 28" stroke="var(--ink-faint)" stroke-width="3.5"/>
+      <circle cx="196" cy="74" r="4" fill="var(--warm)"/>
+    </g>
+    {% endif %}
+    {% if bg %}
+    <g transform="translate(26 52) scale(0.78)">
+      {% set char = n %}{% include "partials/svg/char.html" %}
+    </g>
+    {% else %}
+    {% set char = n %}{% include "partials/svg/char.html" %}
+    {% endif %}
+  </svg>
+  {% endif %}
+  {% if alt %}<figcaption class="sr-only">{{ alt | e }}</figcaption>{% endif %}
+</figure>

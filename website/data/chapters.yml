@@ -1,0 +1,20 @@
+# The DevSecOps loop, in order. slug doubles as section path, phase key,
+# and icon name. caps keys resolve through i18n "caps.*".
+- slug: design
+  episode: 1
+  caps: [secure_sdlc, threat_modeling]
+- slug: develop
+  episode: 2
+  caps: [secure_coding, code_auth, repo_access]
+- slug: build
+  episode: 3
+  caps: [sast, sca, secret_mgmt, iast]
+- slug: test
+  episode: 4
+  caps: [dast, iast, pentest]
+- slug: deploy
+  episode: 5
+  caps: [hardening, config]
+- slug: operate
+  episode: 6
+  caps: [rasp, audit, monitor, patch]

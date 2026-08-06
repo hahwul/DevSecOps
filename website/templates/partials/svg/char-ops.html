@@ -1,0 +1,68 @@
+{# Ops: blue-gray round guardian with a headset and a heartbeat screen,
+   steady and watchful. Coordinate space 240x240. Poses: calm | gear | monitor | thumbsup.
+   Rules: strokes var(--ink), round caps; token fills + shading tokens; no <text>. #}
+{% set p = pose | default(value="calm") %}
+<g class="char char-ops" stroke-linecap="round" stroke-linejoin="round">
+  {# Ground shadow #}
+  <ellipse cx="120" cy="222" rx="54" ry="7.5" fill="var(--ground)"/>
+  {# Back arms #}
+  {% if p == "thumbsup" %}
+  <path d="M186 150q18-6 24-18" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  <path d="M56 152q-11 13-7 28" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% elif p == "gear" %}
+  <path d="M184 158q12 6 14 14" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  <path d="M56 152q-11 13-7 28" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% elif p == "monitor" %}
+  <path d="M180 160q9 8 11 15M60 160q-9 8-11 15" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% else %}
+  <path d="M54 150q-11 14-7 29M186 150q11 14 7 29" stroke="var(--ink)" stroke-width="8" fill="none"/>
+  {% endif %}
+  {# Body #}
+  <circle cx="120" cy="128" r="84" fill="var(--c-ops)" stroke="var(--ink)" stroke-width="5"/>
+  {# Bottom-right shading #}
+  <path d="M198 152q-16 44-62 58 36-4 58-30 12-14 4-28z" fill="var(--shade)"/>
+  {# Top-left sheen #}
+  <path d="M62 86q14-26 42-36-22 16-30 40-8 2-12-4z" fill="var(--c-ops-hi)" opacity="0.9"/>
+  {# Headset #}
+  <path d="M52 100q68-72 136 0" stroke="var(--ink)" stroke-width="6.5" fill="none"/>
+  <rect x="36" y="92" width="20" height="38" rx="10" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4.5"/>
+  <rect x="184" y="92" width="20" height="38" rx="10" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4.5"/>
+  <path d="M46 100v22M194 100v22" stroke="var(--ink-faint)" stroke-width="2.6" opacity="0.6"/>
+  <path d="M52 128q6 26 30 31" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  <circle cx="86" cy="160" r="6" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4"/>
+  {# Face #}
+  <circle cx="98" cy="114" r="5" fill="var(--ink)"/>
+  <circle cx="144" cy="114" r="5" fill="var(--ink)"/>
+  <circle cx="96.4" cy="112.2" r="1.8" fill="var(--paper-raised)"/>
+  <circle cx="142.4" cy="112.2" r="1.8" fill="var(--paper-raised)"/>
+  <path d="M108 140q13 8 26 0" stroke="var(--ink)" stroke-width="4.5" fill="none"/>
+  <ellipse cx="76" cy="132" rx="8.5" ry="5" fill="var(--c-blush)" opacity="0.85"/>
+  <ellipse cx="165" cy="132" rx="8.5" ry="5" fill="var(--c-blush)" opacity="0.85"/>
+  {# Heartbeat screen #}
+  <rect x="98" y="164" width="44" height="26" rx="7" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M104 177h8l4-7 5 13 4-6h9" stroke="var(--accent)" stroke-width="3" fill="none"/>
+  {# Front hands + props #}
+  {% if p == "gear" %}
+  <g stroke="var(--ink)">
+    <path d="M198 153v-9M198 191v9M179 172h-9M217 172h9M185 159l-7-7M211 185l7 7M211 159l7-7M185 185l-7 7" stroke-width="5.5"/>
+    <circle cx="198" cy="172" r="17" fill="var(--paper-raised)" stroke-width="4.5"/>
+    <circle cx="198" cy="172" r="6.5" fill="var(--c-ops)" stroke-width="4"/>
+  </g>
+  <circle cx="47" cy="182" r="7.5" fill="var(--c-ops)" stroke="var(--ink)" stroke-width="4"/>
+  {% elif p == "monitor" %}
+  <rect x="84" y="176" width="72" height="46" rx="8" fill="var(--paper-raised)" stroke="var(--ink)" stroke-width="4.5"/>
+  <path d="M84 189h72" stroke="var(--ink-faint)" stroke-width="2.4" opacity="0.5"/>
+  <circle cx="92" cy="183" r="1.8" fill="var(--ink-faint)"/>
+  <circle cx="99" cy="183" r="1.8" fill="var(--ink-faint)"/>
+  <path d="M94 212l14-11 10 6 16-15" stroke="var(--ink)" stroke-width="4" fill="none"/>
+  <circle cx="134" cy="192" r="2.6" fill="var(--warm)"/>
+  {% elif p == "thumbsup" %}
+  <circle cx="214" cy="124" r="10" fill="var(--c-ops)" stroke="var(--ink)" stroke-width="4.5"/>
+  <path d="M219 116q7-10-1-16" stroke="var(--ink)" stroke-width="6.5" fill="none"/>
+  <circle cx="45" cy="182" r="7.5" fill="var(--c-ops)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M228 104q6 2 4 9" stroke="var(--ink-faint)" stroke-width="3" fill="none" opacity="0.8"/>
+  {% else %}
+  <circle cx="45" cy="182" r="7.5" fill="var(--c-ops)" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="195" cy="182" r="7.5" fill="var(--c-ops)" stroke="var(--ink)" stroke-width="4"/>
+  {% endif %}
+</g>

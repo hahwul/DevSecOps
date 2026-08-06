@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <style>
+    .ink { stroke: #39414a; }
+    .shield { fill: #bfe7de; }
+    @media (prefers-color-scheme: dark) {
+      .ink { stroke: #e9edf2; }
+      .shield { fill: #2e4f49; }
+    }
+  </style>
+  <g transform="translate(0 10)">
+    <path class="ink" d="M24 14c-4.6 5.5-8.6 8.5-13 8.5C5.7 22.5 2 18.7 2 14S5.7 5.5 11 5.5c4.4 0 8.4 3 13 8.5 4.6-5.5 8.6-8.5 13-8.5 5.3 0 9 3.8 9 8.5s-3.7 8.5-9 8.5c-4.4 0-8.4-3-13-8.5Z" fill="none" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="ink shield" d="M24 6.5l5.6 2.2v4.5c0 3.9-2.5 6.2-5.6 7.3-3.1-1.1-5.6-3.4-5.6-7.3V8.7z" stroke-width="2.6" stroke-linejoin="round"/>
+  </g>
+</svg>

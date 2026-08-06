@@ -1,0 +1,20 @@
+{# The six episode teaser panels, driven by data/chapters.yml + i18n.
+   Inline shortcode, no args. #}
+{% set chapters = load_data(path="data/chapters.yml") %}
+<div class="rail">
+  {% for c in chapters %}
+  <div class="panel rail-item reveal">
+    <div class="rail-icon">{% set icon = c.slug %}{% include "partials/svg/icon.html" %}</div>
+    <div class="rail-body">
+      <span class="ep-mark">{{ "chapter.episode" | t }}<span class="ep-num">{{ c.episode }}</span></span>
+      <h3>{{ ("nav." ~ c.slug) | t }}</h3>
+      <p class="rail-blurb">{{ ("chapters." ~ c.slug ~ ".blurb") | t }}</p>
+      <p class="rail-beat">{{ ("chapters." ~ c.slug ~ ".beat") | t }}</p>
+      <ul class="rail-caps">
+        {% for cap in c.caps %}<li>{{ ("caps." ~ cap) | t }}</li>{% endfor %}
+      </ul>
+    </div>
+    <a class="rail-link" href="{{ base_url }}{{ lang_prefix }}/{{ c.slug }}/">{{ "home.read_episode" | t }} &rarr;</a>
+  </div>
+  {% endfor %}
+</div>

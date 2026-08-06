@@ -1,0 +1,42 @@
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <p class="footer-line">{{ "footer.line" | t }}</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="https://github.com/hahwul/DevSecOps" rel="noopener">GitHub</a>
+        <a href="https://github.com/hahwul/DevSecOps/blob/main/LICENSE" rel="noopener">{{ "footer.license" | t }}</a>
+        <a href="https://github.com/hahwul/hwaro" rel="noopener">Hwaro</a>
+      </nav>
+    </div>
+  </footer>
+  {{ highlight_js }}
+  <script>
+(function () {
+  var KEY = "hwaro-theme";
+  var MODES = ["auto", "light", "dark"];
+  var root = document.documentElement;
+  var btn = document.querySelector(".theme-toggle");
+  if (!btn) return;
+  function apply(mode) {
+    if (mode === "auto") {
+      root.removeAttribute("data-theme");
+      try { localStorage.removeItem(KEY); } catch (e) {}
+    } else {
+      root.setAttribute("data-theme", mode);
+      try { localStorage.setItem(KEY, mode); } catch (e) {}
+    }
+    btn.setAttribute("data-mode", mode);
+    btn.setAttribute("aria-label", "Theme: " + mode);
+    btn.title = "Theme: " + mode;
+  }
+  var stored = "auto";
+  try { var t = localStorage.getItem(KEY); if (t === "light" || t === "dark") stored = t; } catch (e) {}
+  btn.addEventListener("click", function () {
+    apply(MODES[(MODES.indexOf(btn.getAttribute("data-mode")) + 1) % MODES.length]);
+  });
+  apply(stored);
+})();
+</script>
+  <script src="{{ base_url }}/js/site.js" defer></script>
+  {{ auto_includes_js }}
+</body>
+</html>

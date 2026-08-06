@@ -1,0 +1,17 @@
+{# Closing banner: the Bug surrenders, the loop continues.
+   Inline shortcode. Args: title="closing line", alt="scene description" #}
+<div class="finale reveal">
+  <div class="panel panel--halftone panel--center">
+    <figure class="scene">
+      <svg viewBox="0 0 240 240" fill="none" aria-hidden="true" focusable="false">
+        {% set pose = "flag" %}{% include "partials/svg/char-bug.html" %}
+      </svg>
+      {% if alt %}<figcaption class="sr-only">{{ alt | e }}</figcaption>{% endif %}
+    </figure>
+    <h2>{{ title | e }}</h2>
+    <div class="hero-ctas">
+      <a class="btn btn--primary" href="{{ base_url }}{{ lang_prefix }}/design/">{{ "home.cta_start" | t }}</a>
+      <a class="btn btn--ghost" href="https://github.com/hahwul/DevSecOps" rel="noopener">{{ "home.cta_github" | t }}</a>
+    </div>
+  </div>
+</div>

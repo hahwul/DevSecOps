@@ -1,0 +1,40 @@
+{% include "header.html" %}
+  <div class="site-wrapper site-wrapper--wide">
+    <main id="main" class="site-main">
+      <h1>{{ page.title | e }}</h1>
+      <div class="flow">
+        {{ content }}
+      </div>
+      {# Filter chips are JS-only; without JS every section stays visible.
+         Phases listed here are the ones that have tools in data/tools.yml. #}
+      <div class="filter-row" role="group" aria-label="{{ "nav.tools" | t }}">
+        <button class="filter-chip" type="button" data-phase="all" aria-pressed="true">{{ "tools.filter_all" | t }}</button>
+        {% for ph in ["design", "build", "test", "operate"] %}
+        <button class="filter-chip" type="button" data-phase="{{ ph }}" aria-pressed="false">{{ ("nav." ~ ph) | t }}</button>
+        {% endfor %}
+      </div>
+      <div data-filter="all">
+        {% set tools = load_data(path="data/tools.yml") %}
+        {% for ph in ["design", "build", "test", "operate"] %}
+        <section class="tools-section" data-phase="{{ ph }}">
+          <div class="tools-section-head">
+            {% set icon = ph %}{% include "partials/svg/icon.html" %}
+            <h2>{{ ("nav." ~ ph) | t }}</h2>
+          </div>
+          <ul class="tools-grid">
+            {% for tool in tools %}{% if tool.phase == ph %}
+            <li class="tool-card">
+              <div class="tool-card-head">
+                <a href="{{ tool.url }}" rel="noopener" aria-label="{{ tool.name | e }}: {{ "tools.open_repo" | t }}">{{ tool.name | e }}</a>
+                <span class="tool-cat">{{ tool.category | e }}</span>
+              </div>
+              <p>{% if page.language == "ko" and tool.description_ko %}{{ tool.description_ko | e }}{% elif page.language == "ja" and tool.description_ja %}{{ tool.description_ja | e }}{% else %}{{ tool.description | e }}{% endif %}</p>
+            </li>
+            {% endif %}{% endfor %}
+          </ul>
+        </section>
+        {% endfor %}
+      </div>
+    </main>
+  </div>
+{% include "footer.html" %}

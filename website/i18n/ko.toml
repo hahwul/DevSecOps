@@ -1,0 +1,93 @@
+# 한국어 UI 문자열
+
+[nav]
+home = "홈"
+design = "설계"
+develop = "개발"
+build = "빌드"
+test = "테스트"
+deploy = "배포"
+operate = "운영"
+tools = "도구"
+about = "소개"
+
+[ui]
+skip = "본문으로 건너뛰기"
+theme = "테마"
+lang = "언어"
+github = "GitHub 저장소"
+
+[footer]
+line = "만화로 배우는 DevSecOps 필드 가이드."
+license = "MIT 라이선스"
+
+[hero]
+start = "에피소드 1 시작"
+tools = "도구 살펴보기"
+
+[home]
+read_episode = "에피소드 읽기"
+cta_start = "설계부터 시작하기"
+cta_github = "GitHub에서 스타 누르기"
+
+[chapter]
+episode = "에피소드"
+prev = "이전 에피소드"
+next = "다음 에피소드"
+loop_again = "루프는 계속됩니다"
+progress = "전체 에피소드"
+tools_heading = "이 단계의 도구"
+tools_empty = "이 단계에 등록된 도구가 아직 없어요. 전체 도구 목록을 둘러보세요."
+all_tools = "모든 도구 보기"
+
+[tools]
+filter_all = "전체"
+open_repo = "저장소 열기"
+
+[notfound]
+title = "이 컷은 존재하지 않아요"
+body = "버그가 이 페이지를 먹어버렸어요. 이야기로 돌아갈까요?"
+back = "홈으로 돌아가기"
+
+[caps]
+secure_sdlc = "시큐어 SDLC"
+threat_modeling = "위협 모델링"
+secure_coding = "시큐어 코딩"
+code_auth = "코드 인증"
+repo_access = "저장소 접근 제어"
+sast = "SAST"
+sca = "SCA"
+secret_mgmt = "시크릿 관리"
+iast = "IAST"
+dast = "DAST"
+pentest = "모의해킹"
+hardening = "하드닝"
+config = "설정"
+rasp = "RASP"
+audit = "감사"
+monitor = "모니터링"
+patch = "패치"
+
+[chapters.design]
+blurb = "첫 커밋 전에 시작하는 위협 모델링과 시큐어 SDLC."
+beat = "빌런은 아직 종이 위에 있을 때 찾아야 해요."
+
+[chapters.develop]
+blurb = "시큐어 코딩 습관, 코드 서명, 접근 제어."
+beat = "한 번 쓸 때, 안전하게 쓰자."
+
+[chapters.build]
+blurb = "모든 푸시마다 SAST, SCA, 시크릿 스캔."
+beat = "파이프라인이 커밋마다 검사해 주니까요."
+
+[chapters.test]
+blurb = "실행 중인 앱을 겨냥한 DAST와 모의해킹."
+beat = "누군가 공격하기 전에, 우리가 먼저 공격해요."
+
+[chapters.deploy]
+blurb = "기본값부터 하드닝된 호스트와 안전한 설정."
+beat = "가게 문을 열기 전에 모든 문을 잠가요."
+
+[chapters.operate]
+blurb = "운영 환경의 RASP, 감사, 모니터링, 패치."
+beat = "배포는 결승선이 아니에요. 우리는 계속 지켜봐요."

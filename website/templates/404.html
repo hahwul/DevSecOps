@@ -1,0 +1,16 @@
+{% include "header.html" %}
+  <div class="site-wrapper">
+    <main id="main" class="site-main">
+      <div class="notfound">
+        <figure class="scene">
+          <svg viewBox="0 0 240 240" fill="none" aria-hidden="true" focusable="false">
+            {% set pose = "caught" %}{% include "partials/svg/char-bug.html" %}
+          </svg>
+        </figure>
+        <h1>{{ "notfound.title" | t }}</h1>
+        <p>{{ "notfound.body" | t }}</p>
+        <p><a class="btn btn--primary" href="{{ base_url }}{{ lang_prefix }}/">{{ "notfound.back" | t }}</a></p>
+      </div>
+    </main>
+  </div>
+{% include "footer.html" %}

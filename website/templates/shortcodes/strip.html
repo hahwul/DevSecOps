@@ -1,0 +1,5 @@
+{# A webtoon strip: vertical column of panels, optionally side by side on
+   wide screens. Block shortcode. Args: row=true #}
+<div class="strip{% if row %} strip--row{% endif %}">
+{{ body | markdownify | safe }}
+</div>

@@ -1,0 +1,26 @@
+{% include "header.html" %}
+  <main id="main" class="site-main">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1 class="hero-title">{{ page.extra.hero_title | safe }}</h1>
+          <p class="hero-sub">{{ page.extra.hero_sub | e }}</p>
+          <div class="hero-ctas">
+            <a class="btn btn--primary" href="{{ base_url }}{{ lang_prefix }}/design/">{{ "hero.start" | t }}</a>
+            <a class="btn btn--ghost" href="{{ base_url }}{{ lang_prefix }}/tools/">{{ "hero.tools" | t }}</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="panel panel--halftone">
+            <figure class="scene scene--wide">
+              {% include "partials/svg/trio.html" %}
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="home-flow flow">
+      {{ content }}
+    </div>
+  </main>
+{% include "footer.html" %}

@@ -1,0 +1,5 @@
+{# One comic panel. Block shortcode.
+   Args: tint="sec"|"warm", halftone=true, center=true #}
+<div class="panel{% if tint == "warm" %} panel--tint-warm{% elif tint %} panel--tint{% endif %}{% if halftone %} panel--halftone{% endif %}{% if center %} panel--center{% endif %} reveal">
+{{ body | markdownify | safe }}
+</div>

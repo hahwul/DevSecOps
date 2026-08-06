@@ -1,0 +1,9 @@
+{% if page.translations %}
+<nav class="lang-switcher" aria-label="{{ "ui.lang" | t }}">
+  {% for tr in page.translations %}
+  <a href="{{ tr.url }}" aria-current="{% if tr.is_current %}true{% else %}false{% endif %}" lang="{{ tr.code }}" hreflang="{{ tr.code }}">
+    {%- if tr.code == "ko" -%}한국어{%- elif tr.code == "ja" -%}日本語{%- else -%}EN{%- endif -%}
+  </a>
+  {% endfor %}
+</nav>
+{% endif %}
