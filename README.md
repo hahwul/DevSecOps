@@ -124,6 +124,7 @@ This list is designed to help you quickly find and compare tools, reducing the t
   - Security Monitor
     1. IAST(Interactive Application Security Testing)
        - [IAST levels defined by OWASP](https://github.com/OWASP/www-project-devsecops-verification-standard/blob/main/document/TEST-003-Interactive-Application-Security-Testing-IAST.md)
+       - [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
     2. Metrics, Monitoring, Alerting
   - Security Analysis
     1. [Attack Surface Analysis Cheat Sheet by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
